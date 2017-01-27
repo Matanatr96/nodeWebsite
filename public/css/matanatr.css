@@ -1,0 +1,202 @@
+.hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 40%;
+        width: 20%;
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        height: 100%;
+        line-height: 100%;
+        vertical-align: middle;
+        margin-top: 1%;
+        color: #5bc0de;
+    }
+}
+
+
+.link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.link-hover {
+    color: #000;
+}
+
+.accent {
+    color: #01545b;
+}
+
+
+
+
+
+
+#mainView {
+    overflow-x: hidden;
+    position: relative;
+    background-color: #FFFFFF;
+    z-index: 0;
+    min-height: 100%;
+
+    background: url(img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+#overall {
+    margin-top: 100px;
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    height: 1000px;
+}
+
+#Buttons {
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    line-height: 50px;
+}
+
+#Buttons li {
+    height: 50px;
+    padding-right: 6%;
+    list-style:none;
+    cursor:pointer;
+    float: left;
+    padding-left: 5%;
+    font-size: 130%;
+}
+
+
+#color {
+    width: 100%;
+}
+
+#color li {
+    display: inline-block;
+    width: 19%;
+    height: 8px;
+    margin:0;
+    padding:0;
+}
+
+
+
+.size6 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.size5 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.size4 {
+    font-size: 33px;
+    line-height: 33px;
+}
+
+.size3 {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.size2 {
+    font-size: 20px;
+    line-height: 21px;
+}
+
+.size1 {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.size0 {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.top5{
+    margin-top: 25px;
+}
+
+.top4{
+    margin-top: 15px;
+}
+
+top3{
+    margin-top: 10px;
+}
+
+.top2{
+    margin-top: 5px;
+}
+
+.top1 {
+    margin-top: 3px;
+}
+
+.top0 {
+    margin-top: 0px;
+}
+
+.marbot {
+    margin-bottom: 0px;
+}
+
+
+#hr1 {
+    width: 90%;
+}
+#facts {
+    width: 80%;
+    margin-top: 5px;
+}
+
+#education {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.listStyle {
+    list-style: none;
+}
+
+#work {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.other:hover {
+    color: #0047ab;
+    border-bottom-style: solid;
+    border-color: #0047ab;
+    border-bottom-width: 2px;
+}
+
+.cur {
+    color: #0047ab;
+}
+
+
+.grey {
+    color: #494949;
+}
+
+.lightGrey {
+    color: #696969;
+}
