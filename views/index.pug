@@ -11,23 +11,25 @@ html
         link(rel='stylesheet', href='/css/bootstrap-flex.css')
         link(rel='stylesheet', href='/css/bootstrap-reboot.css')
     body
-        nav.navbar.navbar-full
-            div.container
-                div.navbar-brand-centered
-                    div.navbar-collapse#navbar-brand-centered
+        div.container.clearfix
+            nav(role='navigation')
+                div.container-fluid
+                    div.collapse.navbar-collapse.left
                         ul.nav.navbar-nav
                             li
-                                a(href='#') Projects
-                                    span.glyphicon.glyphicon-import
-                            li
-                                a(href='#') Resume
-                                    span.glyphicon.glyphicon-book
-                            li
                                 a(href='#') Link
-                        ul.nav.navbar-nav.navbar-right
-                            li
-                                a(href='#') Photos
                             li
                                 a(href='#') Link
                             li
                                 a(href='#') Link
+                    div.collapse.navbar-collapse.right
+                        ul.nav.navbar-nav
+                            li
+                                a(href='#') Link
+                            li
+                                a(href='#') Link
+                            li
+                                a(href='#') Link
+
+
+
