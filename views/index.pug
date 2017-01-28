@@ -11,7 +11,15 @@ html
         link(rel='stylesheet', href='/css/bootstrap-flex.css')
         link(rel='stylesheet', href='/css/bootstrap-reboot.css')
     body
+
         div.container.clearfix
+            div.container#color
+                li(style='background-color: #73C2FB;')
+                li(style='background-color: #1E90FF')
+                li(style='background-color: #007FFF')
+                li(style='background-color: #00BFFF')
+                li(style='background-color: #0070FF')
+
             nav(role='navigation')
                 div.container-fluid
                     div.collapse.navbar-collapse.left
@@ -30,6 +38,16 @@ html
                                 a(href='#') Link
                             li
                                 a(href='#') Link
-
-
-
+            div.container
+                div(align='center')
+                    p.size6.grey Anush Mattapalli
+                    p.size4.lightGrey Georgia Institute of Technology #[span(style='color: #1E90FF') |] Class of 2018
+                div(align='center')
+                    hr(noshade='true' color='#DDDDDD')#hr1
+                p(style='width:80%').push-2.marbot #[b About Me: ] I am a rising junior looking to export my potential to a innovative company
+                div.push-2
+                    p.marbot#facts #[b Two Truths and a Lie]
+                    p.marbot.top1 1. I am a black belt in tae-kwon-do
+                    p.marbot.top1 2. I have been to 33 Different states in the country
+                    p.marbot.top1 3. I can speak 3.5 languages.
+                br

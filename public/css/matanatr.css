@@ -65,11 +65,6 @@
     color: #01545b;
 }
 
-
-
-
-
-
 #mainView {
     overflow-x: hidden;
     position: relative;
@@ -119,7 +114,7 @@
 
 #color li {
     display: inline-block;
-    width: 19%;
+    width: 20%;
     height: 8px;
     margin:0;
     padding:0;
@@ -192,7 +187,7 @@ top3{
 
 
 #hr1 {
-    width: 90%;
+    width: 80%;
 }
 #facts {
     width: 80%;
