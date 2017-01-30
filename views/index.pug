@@ -4,50 +4,30 @@ html
         title Matanatr - #{title}
         link(rel='stylesheet', href='/css/matanatr.css')
         link(rel='stylesheet', href='/css/base.css')
-        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
         link(rel='stylesheet', href='/css/bootstrap.min.css')
         link(rel='stylesheet', href='/css/bootstrap-theme.css')
         link(rel='stylesheet', href='/css/bootstrap-grid.css')
         link(rel='stylesheet', href='/css/bootstrap-flex.css')
         link(rel='stylesheet', href='/css/bootstrap-reboot.css')
     body
-
-        div.container.clearfix
-            div.container#color
-                li(style='background-color: #73C2FB;')
-                li(style='background-color: #1E90FF')
-                li(style='background-color: #007FFF')
-                li(style='background-color: #00BFFF')
-                li(style='background-color: #0070FF')
-
-            nav(role='navigation')
-                div.container-fluid
-                    div.collapse.navbar-collapse.left
-                        ul.nav.navbar-nav
-                            li
-                                a(href='#') Link
-                            li
-                                a(href='#') Link
-                            li
-                                a(href='#') Link
-                    div.collapse.navbar-collapse.right
-                        ul.nav.navbar-nav
-                            li
-                                a(href='#') Link
-                            li
-                                a(href='#') Link
-                            li
-                                a(href='#') Link
+        div(style='background-color: #eceeef;').fullpage.vertical-center
             div.container
-                div(align='center')
-                    p.size6.grey Anush Mattapalli
-                    p.size4.lightGrey Georgia Institute of Technology #[span(style='color: #1E90FF') |] Class of 2018
-                div(align='center')
-                    hr(noshade='true' color='#DDDDDD')#hr1
-                p(style='width:80%').push-2.marbot #[b About Me: ] I am a rising junior looking to export my potential to a innovative company
-                div.push-2
-                    p.marbot#facts #[b Two Truths and a Lie]
-                    p.marbot.top1 1. I am a black belt in tae-kwon-do
-                    p.marbot.top1 2. I have been to 33 Different states in the country
-                    p.marbot.top1 3. I can speak 3.5 languages.
-                br
+                div.jumbotron.text-center
+                   hr(style='color: #73C2FB')
+
+                   p.size2 Hi! My name is #[span('style = color:#009000') Anush Mattapalli]
+                   p.size2 I'm a cs student trying to make a difference in the world through ML
+                   br
+                   p.size2 When I'm not #[span('style = color:#702963') c] #[span('style = color:#0047ab') o] #[span('style = color:#009000') d] #[span('style = color:#ffcc33') i] #[span('style = color:#ff8c00') n] #[span('style = color:#c80815') g]
+                   p.size2 you can find me on the #[span.yellow tennis court] or #[span('style = color:#000000') soccer pitch]
+                   br
+                   p.size2 Want to get in touch with me? I'd love to hear from you
+
+                   div.container
+                       a(href='https://www.linkedin.com/in/anush96/').lightBlue.tab Linked In
+                       a(href='mailto:matanatr96@gmail.com').tab eMail
+                       a(href='https://www.facebook.com/anush.mattapalli').blue.tab Facebook
+                       a(href='https://www.reddit.com/user/Matanatr96/').red.tab Reddit
+                       a(href='https://www.instagram.com/matanatr96/').pink.tab Instagram
+                   hr(style='color: #73C2FB')
+                   a(href='/aboutMe') Learn More

@@ -6,13 +6,8 @@ router.get('/', function(req, res, next) {
     res.render('index', { title: 'Homepage'});
 });
 
-router.get('/test/:id', function (req, res, next) {
-    res.render('test', {output: req.params.id})
-});
-
-router.post('/test/submit', function (req, res, next) {
-    var id = req.body.id;
-    res.redirect('/test/' + id);
+router.get('/aboutMe', function (req, res, next) {
+    res.render('aboutMe', {title: 'About Me'})
 });
 
 module.exports = router;
