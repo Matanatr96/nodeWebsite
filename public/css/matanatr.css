@@ -178,3 +178,8 @@ a {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
 }
+
+.clean:hover {
+    text-decoration: none;
+    color: darkslategray;
+}
