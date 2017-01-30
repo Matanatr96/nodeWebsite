@@ -2,9 +2,9 @@ doctype html
 html
     head
         title Matanatr - #{title}
+        link(rel='stylesheet', href='/css/colors.css')
         link(rel='stylesheet', href='/css/matanatr.css')
         link(rel='stylesheet', href='/css/base.css')
-        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
         link(rel='stylesheet', href='/css/bootstrap.min.css')
         link(rel='stylesheet', href='/css/bootstrap-theme.css')
         link(rel='stylesheet', href='/css/bootstrap-grid.css')
@@ -44,10 +44,35 @@ html
                     p.size4.lightGrey Georgia Institute of Technology #[span(style='color: #1E90FF') |] Class of 2018
                 div(align='center')
                     hr(noshade='true' color='#DDDDDD')#hr1
+
+
+            div.container
+                div(align='center' style='margin-top:-15px')
+                    p.size0.top4.marbot Bachelor's Degree, Major: Computer Science, Minor: Applied Mathematics
+                    p.size0.top1.marbot.top0 #[b Core GPA:] 3.69 #[b Minor GPA:] 3.56
+
+            div.container.top5
+                div(align='center').container.push-1
+                    div(style='float:left')
+                        p.marbot #[b Major Coursework]
+                        ul.listStyle
+                            li CS 1301 - Intro to Python
+                            li CS 1331 - Intro to Java
+                            li CS 1332 - Discrete Structures and Algorithms
+                            li CS 2340 - Objects and Design
+                            li CS 2050 - Intro to Discrete Mathematics
+                    div()
+                        p.marbot #[b Minor Coursework]
+                        ul.listStyle.top3
+                            li Math 1502 - Calc 2
+                            li Math 3215 - Combinatorix
+                            li Math 2605 - Linear Algebra 1
+
+            div.container.top5
                 p(style='width:80%').push-2.marbot #[b About Me: ] I am a rising junior looking to export my potential to a innovative company
-                div.push-2
-                    p.marbot#facts #[b Two Truths and a Lie]
-                    p.marbot.top1 1. I am a black belt in tae-kwon-do
-                    p.marbot.top1 2. I have been to 33 Different states in the country
-                    p.marbot.top1 3. I can speak 3.5 languages.
-                br
+                    div.push-2
+                        p.marbot #[b Two Truths and a Lie]
+                        p.marbot.top1 1. I am a black belt in tae-kwon-do
+                        p.marbot.top1 2. I have been to 33 Different states in the country
+                        p.marbot.top1 3. I can speak 3.5 languages.
+                    br
