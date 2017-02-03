@@ -1,58 +1,19 @@
-doctype html
-html
-    head
-        title Anush Mattapalli | #{title}
-        link(rel='stylesheet', href='/css/colors.css')
-        link(rel='stylesheet', href='/css/matanatr.css')
-        link(rel='stylesheet', href='/css/base.css')
-        link(rel='stylesheet', href='/css/bootstrap.min.css')
-        link(rel='stylesheet', href='/css/bootstrap-theme.css')
-        link(rel='stylesheet', href='/css/bootstrap-grid.css')
-        link(rel='stylesheet', href='/css/bootstrap-flex.css')
-        link(rel='stylesheet', href='/css/bootstrap-reboot.css')
-    body
+extends navbar
 
-        div.container.clearfix
-            div.container#color
-                li(style='background-color: #73C2FB;')
-                li(style='background-color: #1E90FF')
-                li(style='background-color: #007FFF')
-                li(style='background-color: #00BFFF')
-                li(style='background-color: #0070FF')
-
-            nav(role='navigation')
-                div.container-fluid
-                    div.collapse.navbar-collapse.left
-                        ul.nav.navbar-nav
-                            li
-                                a(href='#') Georgia Tech
-                            li
-                                a(href='/projects') Projects
-                            li
-                                a(href='#') Link
-                    div
-                        a(href='/aboutMe' style='margin-left: 220px').float-lg-left #[img(width='45px' height='45px' src='/images/Logo.jpg')]
-                    div.collapse.navbar-collapse.right
-                        ul.nav.navbar-nav
-                            li
-                                a(href='#') Link
-                            li
-                                a(href='#') Link
-                            li
-                                a(href='#') Link
-            div.container
-                div(align='center')
-                    p.size4.lightGrey.top5 Georgia Institute of Technology #[span(style='color: #1E90FF') |] Class of 2018
-                div(align='center')
-                    hr(noshade='true' color='#DDDDDD')#hr1
+block navbar
+    div.container
+        div(align='center')
+            p.size4.lightGrey.top5 Georgia Institute of Technology #[span(style='color: #1E90FF') |] Class of 2018
+        div(align='center')
+            hr(noshade='true' color='#DDDDDD')#hr1
 
 
-            div.container
-                div(align='center' style='margin-top:-15px')
-                    p.size1.top4.bot0 Bachelor's Degree, Major: Computer Science, Minor: Applied Mathematics
-                    p.size1.top1.bot2.top0 #[b Core GPA:] 3.69 #[b Minor GPA:] 3.56
+    div.container
+        div(align='center' style='margin-top:-15px')
+            p.size1.top4.bot0 Bachelor's Degree, Major: Computer Science, Minor: Applied Mathematics
+            p.size1.top1.bot2.top0 #[b Core GPA:] 3.69 #[b Minor GPA:] 3.56
 
-            div.container.top5.push-1
-                p.size1.bot1 #[b CS 1332]
-                p.size0 Intro to Data Structures
-                p.size0.push-1 This course blah blah
+    div.container.top5.push-1
+        p.size1.bot1 #[b CS 1332]
+        p.size0 Intro to Data Structures
+        p.size0.push-1 This course blah blah

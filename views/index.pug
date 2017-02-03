@@ -1,35 +1,25 @@
-doctype html
-html
-    head
-        title Anush Mattapalli | #{title}
-        link(rel='stylesheet', href='/css/colors.css')
-        link(rel='stylesheet', href='/css/matanatr.css')
-        link(rel='stylesheet', href='/css/base.css')
-        link(rel='stylesheet', href='/css/bootstrap.min.css')
-        link(rel='stylesheet', href='/css/bootstrap-theme.css')
-        link(rel='stylesheet', href='/css/bootstrap-grid.css')
-        link(rel='stylesheet', href='/css/bootstrap-flex.css')
-        link(rel='stylesheet', href='/css/bootstrap-reboot.css')
-    body
-        div(style='background-color: #eceeef;').fullpage.vertical-center
-            div.container
-                div.jumbotron.text-center
-                    hr(style='color: #73C2FB')
+extends imports
 
-                    p.size2 Hi! My name is #[span('style = color:#009000') Anush Mattapalli]
-                    p.size2 I'm just a cs student trying to make a difference in the world through ml
-                    br
-                    p.size2 When I'm not #[span('style = color:#702963') c] #[span('style = color:#0047ab') o] #[span('style = color:#009000') d] #[span('style = color:#ffcc33') i] #[span('style = color:#ff8c00') n] #[span('style = color:#c80815') g]
-                    p.size2 you can find me on the #[span.yellow tennis court] or #[span('style = color:#000000') soccer pitch]
-                    br
-                    p.size2 Want to get in touch with me? I'd love to hear from you
+block imports
+    div(style='background-color: #eceeef;').fullpage.vertical-center
+        div.container
+            div.jumbotron.text-center
+                hr(style='color: #73C2FB')
 
-                    div.container
-                        a(href='https://www.linkedin.com/in/anush96/').lightBlue.tab.clean Linked In
-                        a(href='https://github.com/Matanatr96').lightGrey.tab.clean Github
-                        a(href='mailto:matanatr96@gmail.com').tab.clean eMail
-                        a(href='https://www.facebook.com/anush.mattapalli').blue.tab.clean Facebook
-                        a(href='https://www.reddit.com/user/Matanatr96/').red.tab.clean Reddit
-                        a(href='https://www.instagram.com/matanatr96/').pink.tab.clean Instagram
-                    hr(style='color: #73C2FB')
-                    a(href='/aboutMe').clean Learn More
+                p.size2 Hi! My name is #[span('style = color:#009000') Anush Mattapalli]
+                p.size2 I'm just a cs student trying to make a difference in the world through ml
+                br
+                p.size2 When I'm not #[span('style = color:#702963') c] #[span('style = color:#0047ab') o] #[span('style = color:#009000') d] #[span('style = color:#ffcc33') i] #[span('style = color:#ff8c00') n] #[span('style = color:#c80815') g]
+                p.size2 you can find me on the #[span.yellow tennis court] or #[span('style = color:#000000') soccer pitch]
+                br
+                p.size2 Want to get in touch with me? I'd love to hear from you
+
+                div.container
+                    a(href='https://www.linkedin.com/in/anush96/').lightBlue.tab.clean Linked In
+                    a(href='https://github.com/Matanatr96').lightGrey.tab.clean Github
+                    a(href='mailto:matanatr96@gmail.com').tab.clean eMail
+                    a(href='https://www.facebook.com/anush.mattapalli').blue.tab.clean Facebook
+                    a(href='https://www.reddit.com/user/Matanatr96/').red.tab.clean Reddit
+                    a(href='https://www.instagram.com/matanatr96/').pink.tab.clean Instagram
+                hr(style='color: #73C2FB')
+                a(href='/aboutMe').clean Learn More

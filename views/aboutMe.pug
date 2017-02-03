@@ -1,58 +1,16 @@
-doctype html
-html
-    head
-        title Anush Mattapalli | #{title}
-        link(rel='stylesheet', href='/css/colors.css')
-        link(rel='stylesheet', href='/css/matanatr.css')
-        link(rel='stylesheet', href='/css/base.css')
-        link(rel='stylesheet', href='/css/bootstrap.min.css')
-        link(rel='stylesheet', href='/css/bootstrap-theme.css')
-        link(rel='stylesheet', href='/css/bootstrap-grid.css')
-        link(rel='stylesheet', href='/css/bootstrap-flex.css')
-        link(rel='stylesheet', href='/css/bootstrap-reboot.css')
-    body
+extends navbar
 
-        div.container.clearfix
-            div.container#color
-                li(style='background-color: #73C2FB;')
-                li(style='background-color: #1E90FF')
-                li(style='background-color: #007FFF')
-                li(style='background-color: #00BFFF')
-                li(style='background-color: #0070FF')
-
-            nav(role='navigation')
-                div.container-fluid
-                    div.collapse.navbar-collapse.left
-                        ul.nav.navbar-nav
-                            li
-                                a(href='/gt') Georgia Tech
-                            li
-                                a(href='/projects') Projects
-                            li
-                                a(href='#') Link
-                    div
-                        a(href='/aboutMe' style='margin-left: 220px').float-lg-left #[img(width='45px' height='45px' src='/images/Logo.jpg')]
-                    div.collapse.navbar-collapse.right
-                        ul.nav.navbar-nav
-                            li
-                                a(href='#') Link
-                            li
-                                a(href='#') Link
-                            li
-                                a(href='#') Link
-
-
-
-            div(align='center').top5.container#img
-                img.img-circular
-            div.container.top5
-                p.text-center.size4 Keep dreaming, Never stop believeing, Live life, one solution at a time
-                p(style='width: 86%; margin-left:7%').text-center
-                    | Someone I once knew told me to never stop doing what you do, and you know what, i
-                    | never have. I am hit with roadblocks on a daily basis, but that has not stopped me from
-                    | doing what i do best Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                    | sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                    | voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                    | no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                    | sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-                    | gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+block navbar
+    div(align='center').top5.container#img
+        img.img-circular
+    div.container.top5
+        p.text-center.size4 Keep dreaming, Never stop believeing, Live life, one solution at a time
+        p(style='width: 86%; margin-left:7%').text-center
+            | Someone I once knew told me to never stop doing what you do, and you know what, i
+            | never have. I am hit with roadblocks on a daily basis, but that has not stopped me from
+            | doing what i do best Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+            | sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+            | voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            | no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            | sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            | gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
