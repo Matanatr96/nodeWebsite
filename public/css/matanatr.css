@@ -160,12 +160,12 @@ a {
     color: #0047ab;
 }
 
-
-
-
+@media all and (max-width: 900px) {
+    .floated_div { display: none; }
+}
 
 .tab {
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .img-circular{

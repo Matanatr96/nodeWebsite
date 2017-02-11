@@ -3,14 +3,14 @@ extends imports
 block imports
     div.container.clearfix
         div.container#color
-            li(style='background-color: #73C2FB;')
-            li(style='background-color: #1E90FF')
-            li(style='background-color: #007FFF')
-            li(style='background-color: #00BFFF')
-            li(style='background-color: #0070FF')
+            li.blue1
+            li.blue2
+            li.blue3
+            li.blue4
+            li.blue5
 
         nav(role='navigation')
-            div.container-fluid
+            div(style='width:100%').container-fluid
                 div.collapse.navbar-collapse.left
                     ul.nav.navbar-nav
                         li
@@ -19,8 +19,8 @@ block imports
                             a(href='/projects') Projects
                         li
                             a(href='#') Link
-                div
-                    a(href='/aboutMe' style='margin-left: 220px').float-lg-left #[img(width='45px' height='45px' src='/images/Logo.jpg')]
+                div.floated_div
+                    a(href='/aboutMe' style='margin-left: 20%').float-lg-left #[img(width='45px' height='45px' src='/images/Logo.jpg')]
                 div.collapse.navbar-collapse.right
                     ul.nav.navbar-nav
                         li
