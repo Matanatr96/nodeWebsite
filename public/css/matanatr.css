@@ -112,6 +112,10 @@
     line-height: 1rem;
 }
 
+.top6 {
+    margin-top: 50px;
+}
+
 .top5{
     margin-top: 30px;
 }
@@ -201,4 +205,8 @@ a {
 .clean:hover {
     text-decoration: none;
     color: darkslategray;
+}
+
+.project-img {
+    height: 200px;
 }
