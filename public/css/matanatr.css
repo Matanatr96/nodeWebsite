@@ -1,3 +1,22 @@
+
+.col-centered {
+    display:inline-block;
+    float:none;
+}
+.col-fixed {
+    /* custom width */
+    width:320px;
+}
+.col-min {
+    /* custom min width */
+    min-width:320px;
+}
+.col-max {
+    /* custom max width */
+    max-width:320px;
+}
+
+
 .hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -13,8 +32,8 @@
 }
 
 .vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
+    min-height: 100%;
+    min-height: 100vh;
 
     display: flex;
     align-items: center;
@@ -45,7 +64,7 @@
 
 
 #color {
-    width: 100%;
+    width: 90%;
 }
 
 #color li {
@@ -94,23 +113,23 @@
 }
 
 .top5{
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .top4{
+    margin-top: 20px;
+}
+
+.top3{
     margin-top: 15px;
 }
 
-top3{
+.top2{
     margin-top: 10px;
 }
 
-.top2{
-    margin-top: 5px;
-}
-
 .top1 {
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 .top0 {
@@ -160,7 +179,7 @@ a {
     color: #0047ab;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 992px) {
     .floated_div { display: none; }
 }
 
