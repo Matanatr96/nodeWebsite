@@ -1,7 +1,7 @@
 # Website
 > Personal Website for Anush Mattapalli
 
-[thelastmattapalli.com](https://www.thelastmattapalli.com)
+[thelastmattapalli.com](http://www.thelastmattapalli.com)
 
 ## Features
 
