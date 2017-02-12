@@ -1,10 +1,6 @@
 # Website
 > Personal Website for Anush Mattapalli
 
-[![Npm Version][npm-image]]
-[![Node Version][node-image]]
-[![Build Status][travis-image]]
-
 ## Features
 
 - [x] Resume
