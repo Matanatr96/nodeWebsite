@@ -1,6 +1,8 @@
 # Website
 > Personal Website for Anush Mattapalli
 
+[thelastmattapalli.com]:https://www.thelastmattapalli.com
+
 ## Features
 
 - [x] Resume
@@ -13,9 +15,4 @@
 
 Anush Mattapalli – matanatr96@gmail.com
 
-[https://github.com/matanatr96](https://github.com/matanatr96/)
-
-[npm-image]:https://img.shields.io/npm/v/npm.svg
-[node-image]:https://img.shields.io/node/v/gh-badges.svg
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[https://github.com/matanatr96](https://github.com/matanatr96)
