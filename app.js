@@ -10,12 +10,8 @@ var express = require('express'),
     index = require('./routes/index'),
     projects = require('./routes/projects');
 
-//    MongoClient = require('mongodb').MongoClient,
-
-
 //routing to controllers
 app.use('/projects', projects);
-
 app.use('/', index);
 
 
@@ -97,8 +93,5 @@ module.exports = app;
 		});
 	}
 });
-
-
-
-
+ MongoClient = require('mongodb').MongoClient,
  **/

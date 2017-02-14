@@ -16,4 +16,9 @@ var ContentModel = model.extend({
 		this.collection().findAndModify({ID: ID}, [], {}, {remove: true}, callback);
 	}
 });
+
+function hello() {
+	alert('hello');
+}
 module.exports = ContentModel;
+
