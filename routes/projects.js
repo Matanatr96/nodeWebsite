@@ -6,7 +6,6 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/project1', function (req, res, next) {
-    alert('hi');
     res.render('projects/project1', {title: 'Tic Tac Toe'})
 });
 

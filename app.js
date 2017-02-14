@@ -1,21 +1,33 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
+var express = require('express'),
+    http = require('http'),
+    path = require('path'),
+    logger = require('morgan'),
+    favicon = require('serve-favicon'),
+    cookieParser = require('cookie-parser'),
+    bodyParser = require('body-parser'),
 
-var index = require('./routes/index');
-var projects = require('./routes/projects');
-var api = require('./routes/api_v1');
+    app = express(),
+    index = require('./routes/index'),
+    projects = require('./routes/projects');
 
-var app = express();
+//    MongoClient = require('mongodb').MongoClient,
+
+
+//routing to controllers
+app.use('/projects', projects);
+
+app.use('/', index);
+
+
+
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-// uncomment after placing your favicon in /public
+app.locals.basedir = path.join(__dirname); //set at /Website/
 app.use(favicon(path.join(__dirname, 'public', '/images/favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -23,8 +35,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
-app.use('/projects', projects);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -45,3 +55,50 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+/**
+  Once i configure mongo
+  Please refer to https://code.tutsplus.com/tutorials/build-a-complete-mvc-website-with-expressjs--net-34168
+
+ MongoClient.connect('mongodb://' + config.mongo.host + ':' + config.mongo.port + '/fastdelivery', function(err, db) {
+	if(err) {
+		console.log('Sorry, there is no mongo db server running.');
+	} else {
+		var attachDB = function(req, res, next) {
+			req.db = db;
+			next();
+		};
+		app.all('/admin*', attachDB, function(req, res, next) {
+			Admin.run(req, res, next);
+		});
+		app.all('/blog/:id', attachDB, function(req, res, next) {
+			Blog.runArticle(req, res, next);
+		});
+		app.all('/blog', attachDB, function(req, res, next) {
+			Blog.run(req, res, next);
+		});
+		app.all('/services', attachDB, function(req, res, next) {
+			Page.run('services', req, res, next);
+		});
+		app.all('/careers', attachDB, function(req, res, next) {
+			Page.run('careers', req, res, next);
+		});
+		app.all('/contacts', attachDB, function(req, res, next) {
+			Page.run('contacts', req, res, next);
+		});
+		app.all('/', attachDB, function(req, res, next) {
+			Home.run(req, res, next);
+		});
+		http.createServer(app).listen(config.port, function() {
+		  	console.log(
+		  		'Successfully connected to mongodb://' + config.mongo.host + ':' + config.mongo.port,
+		  		'\nExpress server listening on port ' + config.port
+		  	);
+		});
+	}
+});
+
+
+
+
+ **/
