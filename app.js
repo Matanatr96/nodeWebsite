@@ -8,10 +8,10 @@ var express = require('express'),
 
     app = express(),
     index = require('./routes/index'),
-    projects = require('./routes/projects');
+    timeline = require('./routes/timeline');
 
 //routing to controllers
-app.use('/projects', projects);
+app.use('/timeline', timeline);
 app.use('/', index);
 
 

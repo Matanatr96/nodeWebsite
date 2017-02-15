@@ -13,7 +13,6 @@ router.get('/aboutMe', function (req, res, next) {
 });
 
 router.get('/gt', function (req, res, next) {
-    model.h
     res.render('index/gt', {title: 'School'})
 });
 

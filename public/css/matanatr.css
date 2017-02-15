@@ -16,7 +16,9 @@
     max-width:320px;
 }
 
-
+ul {
+    list-style: none;
+}
 .hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -56,10 +58,6 @@
 
 .link-hover {
     color: #000;
-}
-
-.accent {
-    color: #01545b;
 }
 
 
@@ -156,13 +154,6 @@
     margin-bottom: 10px;
 }
 
-
-
-a {
-    list-style: none;
-
-}
-
 #hr1 {
     width: 80%;
 }
@@ -209,12 +200,17 @@ a {
     text-align: center;
 }
 
-.inner {
-    height: 170px;
-}
+
 
 .projectText {
     display: none;
+}
+
+body {
+    position: relative;
+    data-spy: scroll;
+    data-target: #scrolingDiv;
+    data-offset: 20;
 }
 
 .projectImage {
@@ -222,9 +218,13 @@ a {
     width: 340px;
     background-size: cover;
 }
-
+/* Anything with .disappear will disappear when width is smaller than 992 pixels */
 @media all and (max-width: 992px) {
-    .floated_div { display: none; }
+    .disappear { display: none; }
+}
+
+.inner {
+    height: 170px;
 }
 
 @media all and (max-width: 1200px) {
@@ -250,4 +250,8 @@ a {
         display: inline;
         margin-top: 40px;
     }
+}
+
+#scrollingDiv li{
+    margin-bottom: 5px;
 }
