@@ -2,11 +2,14 @@ extends ../navbar
 
 block navbar
     div.top5.container
+        div#intro
+            p(style='padding: 5px 30px 10px 30px').size2.backBlue2 Instead of listing out the projects that I've done, I've decided to try out something different.
+                |  This is a timeline of my more notable accomplishments throughout my life.
         div(style='position: fixed;').container.backBlue1.col-sm-3.disappear
             nav.nav.nav-pills.nav-stacked#scrollingDiv
                 ul
                     li #[a(href='#intro') Intro]
-                    li.active #[a(href='#freshman') Freshman Year]
+                    li #[a(href='#freshman') Freshman Year]
                     li #[a(href='#summer1') Freshman Summer]
                     li #[a(href='#sophomore') Sophomore Year]
                     li #[a(href='#summer2') Sophomore Summer]
