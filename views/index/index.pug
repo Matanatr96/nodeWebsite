@@ -1,29 +1,30 @@
-extends ../imports
+doctype html
+html
+    include ../includes/imports
+    body
+        div(style='background-color: #eceeef;').fullpage.vertical-center
+            div.container
+                div.jumbotron.text-center
+                    hr(style='color: #73C2FB')
 
-block imports
-    div(style='background-color: #eceeef;').fullpage.vertical-center
-        div.container
-            div.jumbotron.text-center
-                hr(style='color: #73C2FB')
+                    p.size2 Hi! My name is #[span('style = color:#009000') Anush Mattapalli]
+                    p.size2 I'm just a cs student trying to make a difference in the world through ml
+                    br
+                    p.size2 When I'm not #[span('style = color:#702963') c] #[span('style = color:#0047ab') o] #[span('style = color:#009000') d] #[span('style = color:#ffcc33') i] #[span('style = color:#ff8c00') n] #[span('style = color:#c80815') g]
+                    p.size2 you can find me on the #[span.yellow tennis court] or #[span('style = color:#000000') soccer pitch]
+                    br
+                    p.size2 Want to get in touch with me? I'd love to hear from you
 
-                p.size2 Hi! My name is #[span('style = color:#009000') Anush Mattapalli]
-                p.size2 I'm just a cs student trying to make a difference in the world through ml
-                br
-                p.size2 When I'm not #[span('style = color:#702963') c] #[span('style = color:#0047ab') o] #[span('style = color:#009000') d] #[span('style = color:#ffcc33') i] #[span('style = color:#ff8c00') n] #[span('style = color:#c80815') g]
-                p.size2 you can find me on the #[span.yellow tennis court] or #[span('style = color:#000000') soccer pitch]
-                br
-                p.size2 Want to get in touch with me? I'd love to hear from you
-
-                div.container.top3
-                    a(href='https://www.linkedin.com/in/anush96/').tab.clean.blue1 LinkedIn
-                    a(href='https://github.com/Matanatr96').tab.clean.blue2 Github
-                    a(href='mailto:matanatr96@gmail.com').tab.clean.blue3 eMail
-                    a(href='https://www.facebook.com/anush.mattapalli').tab.clean.blue Facebook
-                    a(href='https://www.instagram.com/matanatr96/').tab.clean.blue5 Instagram
-                div.container.top2
-                    a(href='/files/resume_2_12_17.docx' download="Anush_Mattapalli_Resume.docx").tab.clean.blue4 Resume
-                    a(href='/files/cover_letter_2_12_17.docx' download="Anush_Mattapalli_CV.docx").tab.clean.blue4 Cover Letter
-                hr(style='color: #73C2FB')
-                a(href='/aboutMe').clean.grey Learn More
-                div.optimized
-                    p.size2 Optimized for a browser
+                    div.container.top3
+                        a(href='https://www.linkedin.com/in/anush96/').tab.clean.blue1 LinkedIn
+                        a(href='https://github.com/Matanatr96').tab.clean.blue2 Github
+                        a(href='mailto:matanatr96@gmail.com').tab.clean.blue3 eMail
+                        a(href='https://www.facebook.com/anush.mattapalli').tab.clean.blue Facebook
+                        a(href='https://www.instagram.com/matanatr96/').tab.clean.blue5 Instagram
+                    div.container.top2
+                        a(href='/files/resume_2_12_17.docx' download="Anush_Mattapalli_Resume.docx").tab.clean.blue4 Resume
+                        a(href='/files/cover_letter_2_12_17.docx' download="Anush_Mattapalli_CV.docx").tab.clean.blue4 Cover Letter
+                    hr(style='color: #73C2FB')
+                    a(href='/aboutMe').clean.grey Learn More
+                    div.optimized
+                        p.size2 Optimized for a browser

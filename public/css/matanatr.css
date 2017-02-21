@@ -207,10 +207,7 @@ ul {
 }
 
 body {
-    position: relative;
-    data-spy: scroll;
-    data-target: #scrolingDiv;
-    data-offset: 20;
+    padding-bottom:50px;
 }
 
 .projectImage {
@@ -254,4 +251,11 @@ body {
 
 #scrollingDiv li{
     margin-bottom: 5px;
+}
+
+#footer {
+    position:relative;
+    bottom:10px;
+    width:100%;
+    height:60px;   /* Height of the footer */
 }
