@@ -4059,9 +4059,13 @@ tbody.collapse.in {
 }
 
 .navbar-text {
+    display: inline-block;
+    padding-top: .425rem;
+    padding-bottom: .425rem;
+  }
+
+.navbar-text-footer {
   display: inline-block;
-  padding-top: .425rem;
-  padding-bottom: .425rem;
 }
 
 .navbar-toggler {
