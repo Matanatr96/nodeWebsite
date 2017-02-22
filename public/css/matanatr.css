@@ -178,6 +178,11 @@ ul {
     margin-right: 15px;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 .img-circular{
     background-image: url('/images/ProfilePic.jpg');
     width: 300px;
@@ -258,4 +263,9 @@ body {
     bottom:10px;
     width:100%;
     height:60px;   /* Height of the footer */
+}
+
+.timelinePic {
+    width: 500px;
+    display: block;
 }
