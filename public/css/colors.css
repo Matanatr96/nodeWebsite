@@ -55,10 +55,14 @@
     color: #0070FF;
 }
 
-.backBlue1 {
+.bBlue1 {
     background-color: #73C2FB;
 }
 
-.backBlue2 {
+.bBlue2 {
     background-color: #1E90FF;
+}
+
+.bLighterGrey {
+    background-color: #999999;
 }
