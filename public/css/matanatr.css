@@ -203,8 +203,8 @@ ul {
     height: 200px;
     padding-top: 15px;
     text-align: center;
+    cursor: pointer;
 }
-
 
 
 .projectText {
@@ -227,6 +227,7 @@ body {
 
 .inner {
     height: 170px;
+    padding-top: 5px;
 }
 
 @media all and (max-width: 1200px) {
