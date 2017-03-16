@@ -1,0 +1,18 @@
+ul {
+    list-style: none;
+}
+
+body {
+     padding-bottom:50px;
+}
+
+a {
+    list-style: none;
+}
+
+hr {
+    width: 100%;
+    display: block;
+    margin: 0.5em auto;
+    border: 1px inset;
+}

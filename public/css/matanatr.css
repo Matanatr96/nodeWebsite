@@ -16,9 +16,6 @@
     max-width:320px;
 }
 
-ul {
-    list-style: none;
-}
 .hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -35,7 +32,6 @@ ul {
 
 .vertical-center {
     min-height: 100%;
-    min-height: 100vh;
 
     display: flex;
     align-items: center;
@@ -71,87 +67,6 @@ ul {
     height: 8px;
     margin:0;
     padding:0;
-}
-
-
-
-.size6 {
-    font-size: 50px;
-    line-height: 50px;
-}
-
-.size5 {
-    font-size: 40px;
-    line-height: 40px;
-}
-
-.size4 {
-    font-size: 33px;
-    line-height: 33px;
-}
-
-.size3 {
-    font-size: 25px;
-    line-height: 25px;
-}
-
-.size2 {
-    font-size: 20px;
-    line-height: 21px;
-}
-
-.size1 {
-    font-size: 18px;
-    line-height: 18px;
-}
-
-.size0 {
-    font-size: 1rem;
-    line-height: 1rem;
-}
-
-.top6 {
-    margin-top: 50px;
-}
-
-.top5{
-    margin-top: 30px;
-}
-
-.top4{
-    margin-top: 20px;
-}
-
-.top3{
-    margin-top: 15px;
-}
-
-.top2{
-    margin-top: 10px;
-}
-
-.top1 {
-    margin-top: 5px;
-}
-
-.top0 {
-    margin-top: 0px;
-}
-
-.bot0 {
-    margin-bottom: 0px;
-}
-
-.bot1 {
-    margin-bottom: 3px;
-}
-
-.bot2 {
-    margin-bottom: 5px;
-}
-
-.bot2 {
-    margin-bottom: 10px;
 }
 
 #hr1 {
@@ -211,10 +126,6 @@ ul {
     display: none;
 }
 
-body {
-    padding-bottom:50px;
-}
-
 .projectImage {
     height: 170px;
     width: 340px;
@@ -269,4 +180,8 @@ body {
 .timelinePic {
     width: 500px;
     display: block;
+}
+
+.auto {
+    margin: auto;
 }

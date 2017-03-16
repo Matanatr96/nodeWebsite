@@ -1,0 +1,98 @@
+.size6 {
+    font-size: 50px !important;
+    line-height: 50px !important;
+}
+
+.size5 {
+    font-size: 40px !important;
+    line-height: 40px !important;
+}
+
+.size4 {
+    font-size: 33px !important;
+    line-height: 33px !important;
+}
+
+.size3 {
+    font-size: 25px !important;
+    line-height: 25px !important;
+}
+
+.size2 {
+    font-size: 20px !important;
+    line-height: 21px !important;
+}
+
+.size1 {
+    font-size: 18px !important;
+    line-height: 18px !important;
+}
+
+.size0 {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.top6 {
+    margin-top: 50px !important;
+}
+
+.top5{
+    margin-top: 30px !important;
+}
+
+.top4{
+    margin-top: 20px !important;
+}
+
+.top3{
+    margin-top: 15px !important;
+}
+
+.top2{
+    margin-top: 10px !important;
+}
+
+.top1 {
+    margin-top: 5px !important;
+}
+
+.top0 {
+    margin-top: 0 !important;
+}
+
+.bot0 {
+    margin-bottom: 0 !important;
+}
+
+.bot1 {
+    margin-bottom: 3px !important;
+}
+
+.bot2 {
+    margin-bottom: 5px !important;
+}
+
+.bot3 {
+    margin-bottom: 10px !important;
+}
+
+.left0 {
+    margin-left: 0 !important;
+}
+
+.left1 {
+    margin-left: 1%;
+}
+
+.left2 {
+    margin-left: 2%;
+}
+
+.left3 {
+    margin-left: 3%;
+}
+
+.mar0 {
+    margin: 0;
+}
