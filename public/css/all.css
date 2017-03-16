@@ -11,8 +11,7 @@ a {
 }
 
 hr {
-    width: 100%;
-    display: block;
+    display: inline-block;
     margin: 0.5em auto;
-    border: 1px inset;
+    border: 2px inset;
 }
