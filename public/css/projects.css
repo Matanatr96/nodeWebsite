@@ -1,3 +1,11 @@
 .schoolProject {
     background-color: #1cc7ff;
 }
+
+.floater {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    float: left;
+}
+

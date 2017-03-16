@@ -9,9 +9,3 @@ body {
 a {
     list-style: none;
 }
-
-hr {
-    display: inline-block;
-    margin: 0.5em auto;
-    border: 2px inset;
-}
