@@ -185,3 +185,8 @@
 .auto {
     margin: auto;
 }
+
+.projectLink {
+    height: 40px;
+    line-height: 40px;
+}
