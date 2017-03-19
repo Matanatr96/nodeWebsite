@@ -9,8 +9,8 @@ router.get('/timeline', function(req, res, next) {
     res.render('projects/timeline', { title: 'Timeline'});
 });
 
-router.get('/school', function(req, res, next) {
-    res.render('projects/schoolProjects', { title: 'Timeline'});
+router.get('/buzzMovieSelector', function(req, res, next) {
+    res.render('projects/projectTemplate', { title: 'Timeline'});
 });
 
 
