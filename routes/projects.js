@@ -10,7 +10,7 @@ router.get('/timeline', function(req, res, next) {
 });
 
 router.get('/buzzMovieSelector', function(req, res, next) {
-    res.render('projects/buzzMovieSelector', { title: 'Android App'});
+    res.render('projects/schoolProjects/buzzMovieSelector', { title: 'Android App'});
 });
 
 
