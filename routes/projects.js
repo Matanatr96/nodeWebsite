@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-    res.render('projects/projects', { title: 'Timeline'});
+    res.render('projects/projects', { title: 'Projects'});
 });
 
 router.get('/timeline', function(req, res, next) {
@@ -10,7 +10,7 @@ router.get('/timeline', function(req, res, next) {
 });
 
 router.get('/buzzMovieSelector', function(req, res, next) {
-    res.render('projects/projectTemplate', { title: 'Timeline'});
+    res.render('projects/buzzMovieSelector', { title: 'Android App'});
 });
 
 
