@@ -14,3 +14,27 @@ html
                     p Class: CS 2340
             div.col-lg-8.col-lg-offset-2.text-center
                 p This is an android app that helps you decide what movie to watch by using student reviews
+            div.col-lg-10.col-lg-offset-1
+                p The purpose of this app was to provide a movie ratings app. We took title data from rotten tomatoes
+                    | and user input (from our app) and created a functional movie rating app. It sorted your rating
+                    | based on your major.
+                    | A couple classmates and I created this app for the class 2340. An android design principles class.
+                p Here are a couple screenshots from the app
+                div.row
+                    div.col-lg-6.text-center
+                        img(src='/images/buzzMovieSelector/hompage.png').androidProjectImage
+                        p.top2 This is the login screen. Contains the basic information, username and password; if the user
+                            | doenst have a login, they can select create an account which will take them to create an
+                            | account
+                        p We stored the user data (including login) in a remote database which allowed the user to close the app
+                            | , come back later and still open the app.
+                    div.col-lg-6.text-center
+                        img(src='/images/buzzMovieSelector/loggedIn.png').androidProjectImage
+                        p.top2 After you create your account and login, you will be greeted with this page. This page allows
+                            | you to logout, edit your account, search through the rotten tomatoes database or find some
+                            | recommended movies
+                div.row.top4
+                    div.col-lg-6.text-center
+                        img(src='/images/buzzMovieSelector/movieSearch.png').androidProjectImage
+                    div.col-lg-6.text-center
+                        img(src='/images/buzzMovieSelector/rateMovier.png').androidProjectImage

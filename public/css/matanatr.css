@@ -126,6 +126,11 @@
     display: none;
 }
 
+.androidProjectImage {
+    width: 367px;
+    height: 582px;
+}
+
 .projectImage {
     height: 170px;
     width: 340px;
