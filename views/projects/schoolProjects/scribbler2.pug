@@ -6,15 +6,37 @@ html
         div.col-lg-8.col-lg-offset-2
             include ../../includes/colorBar
             div.col-lg-12.text-center
-                div.col-lg-2
+                div.col-lg-2.col-md-2
                     p #[a(href='https://github.com/Matanatr96/scribbler2') Github Link]
-                div.col-lg-8
+                div.col-lg-8.col-md-8
                     h2 Scribbler2
-                div.col-lg-2
+                div.col-lg-2.col-md-2
                     p Class: CS 1301
             div.col-lg-8.col-lg-offset-2.text-center
                 p This is a bunch of programs centered around a fun little robot
-            div.col-lg-10.col-lg-offset-1
+            div.col-lg-10.col-lg-offset-1.col-md-12
                 p This class basically taught me the basics of coding and what it could do. Before this, I had no formal
-                    | instruction; just some html I had learned over the summer. This class was basically 'look at all
+                    |  instruction; just some html I had learned over the summer. This class was basically 'look at all
                     | the cool things we can do!'
+                p.text-center In this class, we had a robot. A little myro 2 robot, the scribbler. Pictured here.
+                img(src='/images/scribbler2/myro.png')
+                p With this robot in hand, we had to complete a series of tasks over the course of the semester.
+                | This included (in order)
+                ul(style='list-style-type: square')
+                    li Move the robot
+                    li Run the robot for 2 minutes in a maze, avoiding walls
+                    li Detect what color the robot is seeing at the moment
+                    li edit the picture taken by the robot
+                    li create a movie, with 2 robots
+
+                p You can check out all the files #[a(href='/files/scribbler2/cs1301Code.zip' download="anush_mattapalli_cs1301_code").tab.clean.blue4 here]
+                div.top4
+                    p(style='font-size: 1.3em').bot0 Move the robot #[a(href='/files/scribbler2/HW1' download='anush_mattapalli_cs1301_hw1' style='font-size: 1em; float:right') Homework 1]
+                    p.bot0.offset-lg-1.offset-md-1 We started off simple: make the robot move forward, backward, left, right and at angles too.
+                        | Then we got more complicated: make the robot breakdance. This included many instructions run synchronously.
+                div.top3
+                    p(style='font-size: 1.3em').bot0 Run the robot & avoid walls #[a(href='/files/scribbler2/HW1' download='anush_mattapalli_cs1301_hw1' style='font-size: 1em; float:right') Homework 2]
+                    p.bot0.offset-lg-1.offset-md-1 We started off simple: make the robot move forward, backward, left, right and at angles too.
+                        | Then we got more complicated: make the robot breakdance. This included many instructions run synchronously.
+
+
