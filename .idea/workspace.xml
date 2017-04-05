@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="740d55f5-7f7c-4515-84b2-d191deaa1baa" name="Default" comment="added cool icons">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/coolLinks.css" />
+    <list default="true" id="740d55f5-7f7c-4515-84b2-d191deaa1baa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/matanatr.css" afterPath="$PROJECT_DIR$/public/css/matanatr.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/coolLinks.css" afterPath="$PROJECT_DIR$/public/css/coolLinks.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index/index.pug" afterPath="$PROJECT_DIR$/views/index/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/projects/projects.pug" afterPath="$PROJECT_DIR$/views/projects/projects.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="71" lean-forward="false" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+            <state relative-caret-position="544">
+              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -47,17 +45,17 @@
       <file leaf-file-name="coolLinks.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/coolLinks.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="100" column="5" lean-forward="false" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+            <state relative-caret-position="17">
+              <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matanatr.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="matanatr.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/matanatr.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
+            <state relative-caret-position="-316">
               <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
               <folding />
             </state>
@@ -88,7 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bot</find>
       <find>.redirect</find>
       <find>4</find>
       <find>#color</find>
@@ -118,6 +115,7 @@
       <find>facebook</find>
       <find>sociali</find>
       <find>twitt</find>
+      <find>optimized</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,9 +172,9 @@
         <option value="$PROJECT_DIR$/public/js/test.js" />
         <option value="$PROJECT_DIR$/routes/fun.js" />
         <option value="$PROJECT_DIR$/views/projects/projects.pug" />
-        <option value="$PROJECT_DIR$/views/index/index.pug" />
-        <option value="$PROJECT_DIR$/public/css/coolLinks.css" />
         <option value="$PROJECT_DIR$/public/css/matanatr.css" />
+        <option value="$PROJECT_DIR$/public/css/coolLinks.css" />
+        <option value="$PROJECT_DIR$/views/index/index.pug" />
       </list>
     </option>
   </component>
@@ -670,7 +668,7 @@
       <workItem from="1490827013607" duration="3063000" />
       <workItem from="1491148582576" duration="6451000" />
       <workItem from="1491266901347" duration="3907000" />
-      <workItem from="1491431975255" duration="3214000" />
+      <workItem from="1491431975255" duration="4044000" />
     </task>
     <task id="LOCAL-00001" summary="testing get and post with express">
       <created>1485108967409</created>
@@ -791,11 +789,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491270804385</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added cool icons">
+      <created>1491435206590</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1491435206590</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130413000" />
+    <option name="totallyTimeSpent" value="131243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1143,26 +1148,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index/index.pug">
+    <entry file="file://$PROJECT_DIR$/public/css/matanatr.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="71" lean-forward="false" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+        <state relative-caret-position="-316">
+          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/coolLinks.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="100" column="5" lean-forward="false" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/matanatr.css">
+    <entry file="file://$PROJECT_DIR$/views/index/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+        <state relative-caret-position="544">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding />
         </state>
       </provider>
