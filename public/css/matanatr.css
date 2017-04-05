@@ -99,7 +99,7 @@
 }
 
 .img-circular{
-    background-image: url('/images/ProfilePic.jpg');
+    background-image: url('../images/ProfilePic.jpg');
     width: 300px;
     height: 300px;
     background-size: cover;
@@ -107,6 +107,10 @@
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
+}
+
+.img-circular:hover {
+    box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.6);
 }
 
 .clean:hover {
