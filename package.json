@@ -6,10 +6,12 @@
   "scripts": {
     "start": "node ./bin/www"
   },
-  "contributors": [{
-  	"name": "Anush Mattapalli",
-  	"email": "matanatr96@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Anush Mattapalli",
+      "email": "matanatr96@gmail.com"
+    }
+  ],
   "dependencies": {
     "body-parser": "~1.15.2",
     "cookie-parser": "~1.4.3",
@@ -17,12 +19,13 @@
     "express": "~4.14.0",
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0",
+    "pixi.js": "^3.0.11",
     "pug": "~*",
+    "serve-favicon": "~2.3.0",
     "socket.io": "~1.7.3"
   },
   "repository": {
-  	"type": "git",
-  	"url": "https://github.com/Matanatr96/nodeWebsite"
+    "type": "git",
+    "url": "https://github.com/Matanatr96/nodeWebsite"
   }
 }
