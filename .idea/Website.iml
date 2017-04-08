@@ -20,5 +20,6 @@
     </orderEntry>
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="pixi" level="application" />
   </component>
 </module>
