@@ -8,11 +8,9 @@ var express = require('express'),
 
     app = express(),
     index = require('./routes/index'),
-    fun = require('./routes/fun'),
     projects = require('./routes/projects');
 
 //routing to controllers
-app.use('/fun', fun);
 app.use('/projects', projects);
 app.use('/', index);
 
