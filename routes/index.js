@@ -10,6 +10,7 @@ router.get('/', function(req, res, next) {
 //keep these here till i add more view to each "controller"
 router.get('/aboutMe', function (req, res, next) {
     res.render('index/aboutMe', {title: 'About Me'})
+    console.log('went to index');
 });
 
 router.get('/gt', function (req, res, next) {

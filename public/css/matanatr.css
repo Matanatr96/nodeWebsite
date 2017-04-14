@@ -100,17 +100,14 @@
 
 .img-circular{
     background-image: url('../images/ProfilePic.jpg');
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-size: cover;
     display: block;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-}
-
-.img-circular:hover {
-    box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.6);
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    margin-top: 14%;
 }
 
 .clean:hover {
@@ -140,8 +137,9 @@
     width: 340px;
     background-size: cover;
 }
-/* Anything with .disappear will disappear when width is smaller than 992 pixels */
-@media all and (max-width: 992px) {
+
+/* Anything with .disappear will disappear when width is smaller than 1200 pixels */
+@media all and (max-width: 1400px) {
     .disappear { display: none; }
 }
 
