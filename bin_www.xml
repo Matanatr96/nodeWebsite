@@ -3,7 +3,7 @@
     <envs>
       <env name="DEBUG" value="Website:*" />
     </envs>
-    <browser start="true" url="http://localhost:3000/" />
+    <browser start="true" url="http://localhost:80/"/>
     <profiling v8-profiler-path="" />
     <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
       <option name="envVars">
@@ -30,7 +30,7 @@
       <profiling v8-profiler-path="" />
     </EXTENSION>
     <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-      <browser start="true" url="http://localhost:3000/" />
+      <browser start="true" url="http://localhost:80/"/>
     </EXTENSION>
     <method />
   </configuration>
