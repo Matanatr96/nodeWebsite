@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="740d55f5-7f7c-4515-84b2-d191deaa1baa" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/aboutMe.js" afterPath="$PROJECT_DIR$/public/js/intro.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/index/aboutMe.pug" afterPath="$PROJECT_DIR$/views/index/intro.pug" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/index/gt.pug" afterPath="$PROJECT_DIR$/views/index/aboutMe.pug" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/resume.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/files/resume_2_12_17.docx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/includes/navbar.pug" afterPath="$PROJECT_DIR$/views/includes/navbar.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index/index.pug" afterPath="$PROJECT_DIR$/views/index/index.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index/intro.pug" afterPath="$PROJECT_DIR$/views/index/intro.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="intro.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index/intro.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="595">
+              <caret line="35" column="97" lean-forward="true" selection-start-line="35" selection-start-column="97" selection-end-line="35" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -40,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/views/index/aboutMe.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -112,11 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>link(re</find>
-      <find>link(rel</find>
-      <find>facebook</find>
-      <find>sociali</find>
-      <find>twitt</find>
       <find>optimized</find>
       <find>link</find>
       <find>\</find>
@@ -142,6 +134,11 @@
       <find>about</find>
       <find>aboutM</find>
       <find>aboutMe</find>
+      <find>re</find>
+      <find>res</find>
+      <find>resu</find>
+      <find>resum</find>
+      <find>resume</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -246,6 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -558,7 +556,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -746,7 +743,9 @@
       <workItem from="1492128360986" duration="1085000" />
       <workItem from="1492134351884" duration="2162000" />
       <workItem from="1492208904566" duration="410000" />
-      <workItem from="1492217203394" duration="1120000" />
+      <workItem from="1492217203394" duration="1145000" />
+      <workItem from="1492279483145" duration="555000" />
+      <workItem from="1492281690636" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="testing get and post with express">
       <created>1485108967409</created>
@@ -944,11 +943,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492136505193</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="pre about me update changes">
+      <created>1492218846457</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1492218846457</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145570000" />
+    <option name="totallyTimeSpent" value="146271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -960,7 +966,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19661734" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19661734" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -983,7 +989,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added more on state farm summer" />
     <MESSAGE value="Fixed background color of timeline&#10;" />
     <MESSAGE value="Removed ugly grey projects design and developed beginnning of new design&#10;&#10;" />
     <MESSAGE value="Finally Fixed line under school projects" />
@@ -1008,7 +1013,8 @@
     <MESSAGE value="added links. ready for production push" />
     <MESSAGE value="fixed porting error" />
     <MESSAGE value="formatted about me page on mobile and added jquery" />
-    <option name="LAST_COMMIT_MESSAGE" value="formatted about me page on mobile and added jquery" />
+    <MESSAGE value="pre about me update changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="pre about me update changes" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1238,13 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/icosahedron.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="86" column="49" lean-forward="false" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin_www.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1326,15 +1325,22 @@
     <entry file="file://$PROJECT_DIR$/views/index/aboutMe.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/icosahedron.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1846">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index/intro.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="595">
+          <caret line="35" column="97" lean-forward="true" selection-start-line="35" selection-start-column="97" selection-end-line="35" selection-end-column="98" />
           <folding />
         </state>
       </provider>
