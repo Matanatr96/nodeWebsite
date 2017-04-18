@@ -13,7 +13,6 @@ var express = require('express'),
 //routing to controllers
 app.use('/projects', projects);
 app.use('/', index);
-app.use(require('express-jquery')('/jquery.js'));
 
 
 // view engine setup
