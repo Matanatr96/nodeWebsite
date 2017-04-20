@@ -4,5 +4,5 @@ $(document).ready(function () {
         $('#img').fadeOut('slow', function () {
             $('#nonImage').fadeIn('slow');
         });
-    }, 2000);
+    }, 2100);
 });
