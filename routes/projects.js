@@ -17,4 +17,8 @@ router.get('/scribbler2', function (req, res, next) {
     res.render('projects/schoolProjects/scribbler2', {title: 'Python Fun'});
 });
 
+router.get('/rainmaker', function (req, res, next) {
+    res.render('projects/workProjects/rainmaker', {title: 'Rainmaker'});
+});
+
 module.exports = router;
