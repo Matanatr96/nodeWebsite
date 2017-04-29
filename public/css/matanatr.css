@@ -47,6 +47,10 @@
     right: 10%;
 }
 
+.logo {
+    width: 60%;
+}
+
 .link {
     text-decoration: none;
     text-align: center;
@@ -56,12 +60,11 @@
     color: #000;
 }
 
-
-#color {
+#colorBar {
     width: 100%;
 }
 
-#color li {
+#colorBar li {
     display: inline-block;
     width: 20%;
     height: 8px;
