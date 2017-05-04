@@ -1,7 +1,8 @@
 doctype html
 html
     include ../../includes/imports
-        link(rel='stylesheet', href='/css/projects.css')
+    link(rel='stylesheet', href='/css/Modals/imageModal.css')
+    script(src='/js/workProjects/rainmaker.js')
     body
         div.col-lg-8.col-lg-offset-2
             include ../../includes/colorBar
@@ -40,7 +41,10 @@ html
                     | wrong. Everyone loved it. Some people even called the project sexy :D. This whole project was a great experience
                     | and a great insight into the corporate world and how everything works.
                 div.row
-                    div.col-lg-6.text-center
-                        div
-                            div
+                    div.col-lg-8.text-center.col-lg-offset-2
+                        div(caption='Rainmaker Input Form' image = '/images/rainmaker/inputForm.png')#imageLink Rainmaker
+                    div.modal#myModal
+                        span.close &times
+                        img#modalImage
+                        div#caption
 
