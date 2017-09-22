@@ -1,17 +1,18 @@
 doctype html
 html
     include ../../includes/imports
-        link(rel='stylesheet', href='/css/projects.css')
+    link(rel='stylesheet', href='/css/Modals/imageModal.css')
+    script(src='/js/workProjects/rainmaker.js')
     body
         div.col-lg-8.col-lg-offset-2
             include ../../includes/colorBar
             div.col-lg-12.text-center
                 div.col-lg-2
-                    p #[a(href='https://www.pegasuscrm.net') Shameless Updoot?]
+                    p #[a(href='https://www.pegasuscrm.net') Rainmaker/PegasusCRM]
                 div.col-lg-8
                     h2 Rainmaker - Merchant Analysis Tool
-                div.col-lg-2
-                    p Work: PegasusCRM
+                //div.col-lg-2
+                //    p Work: PegasusCRM
             div.col-lg-8.col-lg-offset-2.text-center
                 p This tool was designed to help sales agents pitch their lower prices to potential merchants
             div.col-lg-10.col-lg-offset-1.col-md-12
@@ -40,4 +41,10 @@ html
                     | wrong. Everyone loved it. Some people even called the project sexy :D. This whole project was a great experience
                     | and a great insight into the corporate world and how everything works.
                 div.row
-                    div.col-lg-6.text-center
+                    div.col-lg-8.text-center.col-lg-offset-2.bLighestGrey
+                        div(caption='Rainmaker Input Form' image='/images/rainmaker/inputForm.png')#imageLink Rainmaker Input Form
+                    div.modal#myModal
+                        span.close &times
+                        img#modalImage
+                        div#caption
+

@@ -1,0 +1,86 @@
+doctype html
+html
+    include ../../includes/imports
+        link(rel='stylesheet', href='/css/projects.css')
+    body
+        div.col-lg-8.col-lg-offset-2
+            include ../../includes/colorBar
+            div.col-lg-12.text-center
+                div.col-lg-2
+                    p #[a(href='https://github.com/Matanatr96/flappyBird') Github Link]
+                div.col-lg-8
+                    h2 Flappy bird
+                div.col-lg-2
+                    p Class: CS 4641
+            div.col-lg-8.col-lg-offset-2.text-center
+                p Machine Learning project for CS 4641 to teach an Agent to consistently achieve high scores in Flappy Bird
+            div.col-lg-10.col-lg-offset-1.col-md-12
+                p First off i would like to thank sourabhv for his public python implementation of the game
+                    |  without which my group would not have been able to begin this project. You can check out his
+                    | implementation #[a(href='https://github.com/sourabhv/FlapPyBird') here].
+                    |  Our agent's implementation uses Q-Learning as the learning algorithm. Basically,
+                    |  the agent performs an action, gets the reward, analyzes the new state that it is in and
+                    |  performs another action, based on all the previous information.
+                div.push-1.top6
+                    p.bot1.size2 #[b Implementation]
+                    p.bot0 The state space of our agent consisted of:
+                    ul(style='list-style-type: square').push-1
+                        li Horizontal distance from next pipe
+                        li Vertical distance from top of pipe axis
+                        li Downward velocity
+                img(src='/images/flappy/stateSpace.png' width='400px' height='800px').center-block
+                div.push-1.top2
+                    p.bot1 Additionally, each state has the associated
+                        |  q-values for the actions it can perform (q1 for jumping and q2 for not jumping). As our bird agent
+                        |  traverses through the flappy world, the associated states and updated q-values are stored in a JSON
+                        |  file in the form of a dictionary.
+                    p.bot0 For each state, there are 2 possible actions
+                    ul(style='list-style-type: square').push-1
+                        li Click
+                        li Do nothing
+                    p.bot0 Each action affects the bird in some way. Additionally, the rewards we introduced were
+                    ul(style='list-style-type: square').push-1
+                        li +1 For each iteration of the loop the agent is alive
+                        li -1000 For the agents death
+                    p The reason for this is we want to have a high discouragement for death. The
+                        |  reason being, death is the end all, death ends the game.
+                div.push-1.top4
+                    p.bot1.size2 #[b Loop]
+                    ul(style='list-style-type: square').push-1
+                        li Step 1: Observe current state
+                        li Step 2: Determine which action maximizes expected reward
+                        li Step 3: Observe new state s' and record reward {1, -1000}
+                        li Step 4: Update Q array (Q[s,a] <- Q[s',a'] + Reward(s', a'))
+                        li Step 5: Repeat
+                        li Step 6: Profit???
+
+                div.push-1.top6
+                    p.bot1.size2 #[b Analysis]
+                    p.bot0 We let the bot train overnight (for 15 hours) and these are our results
+                    img(src='/images/flappy/agentScore.png' width='800px' height='400px').center-block
+                    p The above 100 plot shows the long-term trend of the Flappy Bird agent learning to play the game.
+                        |  Approaching iteration 3000, the learning rate of the agent increases sharply. The relative steadiness
+                        |  from 0 to 3000 is likely explained by the game random repositioning of pipes over successive
+                        |  games which the agent had not learned to overcome yet. Approaching 3100 iterations, the agent’s
+                        |  performance in the game drastically spikes to achieve very high scores. This is what we referred
+                        |  to as the "learned point" or "learned state" in our graph. At the learned point, our agent has been
+                        |  trained long enough to discover how to deal with the random position of the pipes and overcome
+                        |  the large jumps between pipes without dying.
+                    img(src='/images/flappy/epsilonDecay.png' width='800px' height='400px').center-block
+                    p.top3 While having a constant learning rate makes computation easy, we wanted to see if we could come up
+                        |  with a better model and hopefully improve the number of iterations it took for our policy to converge
+                        |  and for us to see higher scores. Since our function is a decaying function,
+                        |  we are essentially telling our agent to take more random actions in the earlier stages of its training. As
+                        |  the learning rate drops as time elapses, our agent gradually transitions from exploring to exploiting.
+                        |  This means that instead of looking for completely new solutions, our agent focuses on improving
+                        |  the current solution to achieve higher scores.
+
+                div.push-1.top6
+                    p.bot1.size2 #[b Conclusions]
+                    p.bot0 We wrote the bot and ran the experiments in a limited time frame. Given more time, we would have changed
+                        |  a few things.
+                    ul(style='list-style-type: square').push-1
+                        li 1: Instantiate more birds every iteration to increase learning rate
+                        li 2: Let the algorithm run longer to increase the high score
+
+                    p Overall it was an enjoyable project and hopefully a stepping stone to bigger projects in the future

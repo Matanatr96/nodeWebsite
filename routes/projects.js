@@ -21,4 +21,8 @@ router.get('/rainmaker', function (req, res, next) {
     res.render('projects/workProjects/rainmaker', {title: 'Rainmaker'});
 });
 
+router.get('/flappyBird', function (req, res, next) {
+    res.render('projects/schoolProjects/flappyBird', {title: 'Flappy Bird'});
+});
+
 module.exports = router;
