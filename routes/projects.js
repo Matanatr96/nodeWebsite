@@ -25,4 +25,8 @@ router.get('/flappyBird', function (req, res, next) {
     res.render('projects/schoolProjects/flappyBird', {title: 'Flappy Bird'});
 });
 
+router.get('/sentimentAnalysis', function (req, res, next) {
+    res.render('projects/personalProjects/sentimentAnalysis', {title: 'NLP Text Classification'});
+});
+
 module.exports = router;
