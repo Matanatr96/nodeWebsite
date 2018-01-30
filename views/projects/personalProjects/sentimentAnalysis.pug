@@ -1,0 +1,52 @@
+doctype html
+html
+    include ../../includes/imports
+        link(rel='stylesheet', href='/css/projects.css')
+    body
+        div.col-lg-8.col-lg-offset-2
+            include ../../includes/colorBar
+            div.col-lg-12.text-center
+                div.col-lg-2
+                    p #[a(href='https://github.com/Matanatr96/TextClassification') Github Link]
+                div.col-lg-8
+                    h2 Text Classification using Sentiment Analysis
+                div.col-lg-2
+                    p Personal Project
+            div.col-lg-8.col-lg-offset-2.text-center
+                p Machine Learning project used to understand Tensorflow and the basics of NLP
+            div.col-lg-10.col-lg-offset-1.col-md-12
+                p This project started off as a learning tool; to help me understand the basics of NLP. But now,
+                    |  I can use this trained model to help me predict the outcome of major events using tweets.
+                    |  For example, doing a query based on 1000 tweets with the hashtag 'trump', we see that the
+                    |  average sentiment on the topic is around '.30'. This tells us that the majority of tweets
+                    |  surrounding trump are not positive, as anyone could have guessed. This gives me the consensus
+                    |  of the general public; allowing me to make better decisions on trump related events.
+                p.bot1.size2.top6 #[b Training]
+                div
+                    p.bot0 The dataset I used to train this model was the rotten tomatoes polarity data. This set
+                        |  includes 60,000 lines of uncleaned movie reviews. 30,000 rated with positive sentiment and
+                        |  30,000 rated with negative sentiment. In order to use the data, I had to clean out all
+                        |  the quotes and the extra lines. I also had shorten each phrase down to 50 characters to
+                        |  keep the data consistent.
+                    //ul(style='list-style-type: square').top1
+                    //    li
+                div.top2
+                    p Now that we have the data, in a clean (easy to use) format, we can train. I ran a simple
+                        |  classification convolutional neural net on it. This allowed me to attach a value to the
+                        |  vocabulary associated with each word.
+
+                div.top5
+                    p Heres a snippet of my training steps
+                    img(src='/images/sentimentAnalysis/trainingSnippet.png' width='800px' height='800px').center-block
+                    p.top1 My neural net utilises tensorflow's CNN capabilities. Each step allows you to print out every
+                        |  iteration.
+                    p After creating the model, I had to save the model to disk. This would allow me to use this
+                        |  trained model in the future (without retraining it everytime). After saving the model, I
+                        |  pulled it back into code and ran my sentiment analysis throught it. After pulling multiple
+                        |  tweets through, and pushing them through the system, I am able to tell the sentiment of the
+                        |  hashtag#. Hopefully this will give me the insight for future decisions.
+                    p Overall, this project gave me the insight into the world of neural nets and the intro into the
+                        |  world of machine learning. Heres to many more projects!
+                div.push-1.top6
+                    p.bot1.size2 #[b ]
+                    p.bot0
