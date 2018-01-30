@@ -11,7 +11,7 @@ html
                 div.col-lg-8
                     h2 Text Classification using Sentiment Analysis
                 div.col-lg-2
-                    p Class: CS 2340
+                    p Personal Project
             div.col-lg-8.col-lg-offset-2.text-center
                 p Machine Learning project used to understand Tensorflow and the basics of NLP
             div.col-lg-10.col-lg-offset-1.col-md-12
@@ -28,10 +28,16 @@ html
                         |  30,000 rated with negative sentiment. In order to use the data, I had to clean out all
                         |  the quotes and the extra lines. I also had shorten each phrase down to 50 characters to
                         |  keep the data consistent.
-                    ul(style='list-style-type: square').top1
-                        li
-                div
-                    p Now that we have the data, in a clean (easy to use) format, we can train. I ran a m
+                    //ul(style='list-style-type: square').top1
+                    //    li
+                div.top2.row
+                    p Now that we have the data, in a clean (easy to use) format, we can train. I ran a simple
+                        |  classification convolutional neural net on it. This allowed me to attach a value to the
+                        |  vocabulary associated with each word.
+
+                div.row
+                    div.col-lg-8.text-center.col-lg-offset-2.bLighestGrey
+                        div(caption='Heres a snippet of my training steps' image='/images/sentimentAnalysis/trainingSnippet.png')#imageLink Training Snippet
 
                 div.push-1.top6
                     p.bot1.size2 #[b ]
