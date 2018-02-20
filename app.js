@@ -7,10 +7,13 @@ var express = require('express'),
     bodyParser = require('body-parser'),
 
     app = express(),
+    photos = require('./routes/photos'),
     index = require('./routes/index'),
     projects = require('./routes/projects');
 
+
 //routing to controllers
+app.use('/photos', photos);
 app.use('/projects', projects);
 app.use('/', index);
 
