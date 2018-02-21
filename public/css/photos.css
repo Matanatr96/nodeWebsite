@@ -1,0 +1,11 @@
+.gridItem {
+    position: absolute;
+    border-radius: 10px;
+    background-color: #007FFF;
+    top: 0;
+}
+
+.gridColumn {
+    padding-left: 3px;
+    padding-right: 3px;
+}
