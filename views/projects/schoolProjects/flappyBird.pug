@@ -2,17 +2,17 @@ doctype html
 html
     include ../../includes/imports
         link(rel='stylesheet', href='/css/projects.css')
-    body
-        div.col-lg-8.col-lg-offset-2
+    body(style='padding-top:0px').jumbotron
+        div.col-lg-10.col-lg-offset-1.col-md-10.col-md-offset-1.col-sm-10.col-sm-offset-1.col-xs-10.col-xs-offset-1
             include ../../includes/colorBar
             div.col-lg-12.text-center
                 div.col-lg-2
-                    p #[a(href='https://github.com/Matanatr96/flappyBird') Github Link]
+                    p.size2 #[a(href='https://github.com/Matanatr96/flappyBird') Github Link]
                 div.col-lg-8
-                    h2 Flappy bird
+                    h3 Flappy bird
                 div.col-lg-2
-                    p Class: CS 4641
-            div.col-lg-8.col-lg-offset-2.text-center
+                    p.size2 Class: CS 4641
+            div.col-lg-8.col-lg-offset-2.text-center.top3
                 p Machine Learning project for CS 4641 to teach an Agent to consistently achieve high scores in Flappy Bird
             div.col-lg-10.col-lg-offset-1.col-md-12
                 p First off I would like to thank sourabhv for his public python implementation of the game
