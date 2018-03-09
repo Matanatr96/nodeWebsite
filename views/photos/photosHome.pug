@@ -3,7 +3,7 @@ html
     include ../includes/imports
     link(rel='stylesheet', href='/css/photos.css')
     body(style='padding-top:0px').jumbotron
-        div.col-lg-10.col-lg-offset-1
+        div.col-lg-10.col-lg-offset-1.col-md-10.col-md-offset-1.col-sm-10.col-sm-offset-1.col-xs-10.col-xs-offset-1
             include ../includes/navbar
             div.container
                 div.col-lg-12
@@ -11,13 +11,19 @@ html
                         p.size1 Taken at various locations around (I wish I could say the world) the country, I try to capture
                             |  all sorts of scenes
 
-            div.col-lg-12.top5#grid
-                div.col-lg-4.col-xl-4.gridColumn
-                    div(style='').gridItem
+            div.col-md-12.col-lg-12.top5#grid
+                div.col-md-4.col-lg-4.col-xl-4.gridColumn
+                    div
                         img(src='/images/photography/10th_street_bridge.jpg')
-                div.col-lg-4.col-xl-4.gridColumn
-                    div(style='').gridItem
+                    div.top1
                         img(src='/images/photography/10th_street_bridge.jpg')
-                div.col-lg-4.col-xl-4.gridColumn
-                    div(style='').gridItem
+                div.col-md-4.col-lg-4.col-xl-4.gridColumn
+                    div
+                        img(src='/images/photography/abandoned_train.jpg')
+                    div.top1
+                        img(src='/images/photography/10th_street_bridge.jpg')
+                div.col-md-4.col-lg-4.col-xl-4.gridColumn
+                    div
+                        img(src='/images/photography/red_car.jpg')
+                    div.top1
                         img(src='/images/photography/10th_street_bridge.jpg')
