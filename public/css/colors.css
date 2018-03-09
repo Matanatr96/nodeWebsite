@@ -1,0 +1,96 @@
+
+.grey {
+    color: #494949;
+}
+
+.lightGrey {
+    color: #696969;
+}
+
+.lightBlue {
+    color: #1cc7ff;
+}
+
+.red {
+    color: #F32020;
+}
+
+.lightRed {
+    color: #FF2554
+}
+
+.blue {
+    color: #0000FF;
+}
+
+.yellow {
+    color: #cccc00;
+}
+
+.pink {
+    color: #FF69b4;
+}
+
+.black {
+    color: #000000;
+}
+
+.blue1 {
+    color: #73C2FB;
+}
+
+.blue2 {
+    color: #1E90FF;
+}
+
+.blue3 {
+    color: #007FFF;
+}
+
+.blue4 {
+    color: #00BFFF;
+}
+
+.blue5 {
+    color: #0070FF;
+}
+
+.bBlue1 {
+    background-color: #73C2FB;
+}
+
+.bBlue2 {
+    background-color: #1E90FF;
+}
+
+.bBlue3 {
+    background-color: #0070FF;
+}
+
+.bBlue4 {
+    background-color: #00BFFF;
+}
+
+.bBlue5 {
+    background-color: #007FFF;
+}
+
+.bBlue6 {
+    background-color: #55ABFF;
+}
+
+.bLighestGrey {
+    background-color: #EEEEEE;
+}
+
+.bLighterGrey {
+    background-color: #BBBBBB;
+}
+
+.bLightGrey {
+    background-color: #999999;
+}
+
+.bBasicallyWhite {
+    background-color: #EEEEEE;
+}
