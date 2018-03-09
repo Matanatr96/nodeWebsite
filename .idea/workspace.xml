@@ -39,13 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photosHome.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="photosHome.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/photos/photosHome.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="132" lean-forward="false" selection-start-line="20" selection-start-column="132" selection-end-line="20" selection-end-column="132" />
+            <state relative-caret-position="612">
+              <caret line="36" column="67" lean-forward="true" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="campus.JPG" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/images/photography/campus.JPG">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -71,16 +78,6 @@
       </file>
       <file leaf-file-name="flappyBird.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/projects/schoolProjects/flappyBird.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="115" lean-forward="false" selection-start-line="5" selection-start-column="115" selection-end-line="5" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scribbler2.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/projects/schoolProjects/scribbler2.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="115" lean-forward="false" selection-start-line="5" selection-start-column="115" selection-end-line="5" selection-end-column="115" />
@@ -571,14 +568,7 @@
       <workItem from="1520186275855" duration="51000" />
       <workItem from="1520563550310" duration="1679000" />
       <workItem from="1520571420938" duration="4260000" />
-      <workItem from="1520638989741" duration="125000" />
-    </task>
-    <task id="LOCAL-00010" summary="Changed formatting for movie selector page">
-      <created>1490749472852</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1490749472852</updated>
+      <workItem from="1520638989741" duration="204000" />
     </task>
     <task id="LOCAL-00011" summary="workspace commit">
       <created>1490749487192</created>
@@ -916,17 +906,23 @@
       <option name="project" value="LOCAL" />
       <updated>1520575307243</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Pushed images">
+      <created>1520639137137</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1520639137138</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198059000" />
+    <option name="totallyTimeSpent" value="198138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19661734" sideWeight="0.50416666" order="10" side_tool="true" content_ui="tabs" />
@@ -956,7 +952,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed unecessary code from about me. need to remove more" />
     <MESSAGE value="about me coming together" />
     <MESSAGE value="added more words to about me." />
     <MESSAGE value="Big changes to javascript files" />
@@ -981,7 +976,8 @@
     <MESSAGE value="fixed ugly navbar scaling when small&#10;also removed absolute positioning of images to straighten them" />
     <MESSAGE value="Images are funcional for now" />
     <MESSAGE value="Images are functional for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Images are functional for now" />
+    <MESSAGE value="Pushed images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushed images" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -991,7 +987,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_icosahedron.zip/icosahedron/css/style.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/pixi.js/bin/pixi.js" />
     <entry file="file://$PROJECT_DIR$/public/css/icosahedron.css" />
     <entry file="file://$PROJECT_DIR$/routes/fun.js" />
@@ -1298,10 +1293,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/photos/photosHome.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="132" lean-forward="false" selection-start-line="20" selection-start-column="132" selection-end-line="20" selection-end-column="132" />
+        <state relative-caret-position="612">
+          <caret line="36" column="67" lean-forward="true" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/photography/campus.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
