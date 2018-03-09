@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="740d55f5-7f7c-4515-84b2-d191deaa1baa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/views/index/aboutMe.pug" afterPath="$PROJECT_DIR$/views/index/aboutMe.pug" />
-      <change beforePath="$PROJECT_DIR$/views/index/intro.pug" afterPath="$PROJECT_DIR$/views/index/intro.pug" />
-      <change beforePath="$PROJECT_DIR$/views/photos/photosHome.pug" afterPath="$PROJECT_DIR$/views/photos/photosHome.pug" />
-      <change beforePath="$PROJECT_DIR$/views/projects/personalProjects/sentimentAnalysis.pug" afterPath="$PROJECT_DIR$/views/projects/personalProjects/sentimentAnalysis.pug" />
-      <change beforePath="$PROJECT_DIR$/views/projects/projects.pug" afterPath="$PROJECT_DIR$/views/projects/projects.pug" />
-      <change beforePath="$PROJECT_DIR$/views/projects/schoolProjects/buzzMovieSelector.pug" afterPath="$PROJECT_DIR$/views/projects/schoolProjects/buzzMovieSelector.pug" />
-      <change beforePath="$PROJECT_DIR$/views/projects/schoolProjects/flappyBird.pug" afterPath="$PROJECT_DIR$/views/projects/schoolProjects/flappyBird.pug" />
-      <change beforePath="$PROJECT_DIR$/views/projects/schoolProjects/scribbler2.pug" afterPath="$PROJECT_DIR$/views/projects/schoolProjects/scribbler2.pug" />
-      <change beforePath="$PROJECT_DIR$/views/projects/timeline.pug" afterPath="$PROJECT_DIR$/views/projects/timeline.pug" />
-      <change beforePath="$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug" afterPath="$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,8 +42,25 @@
       <file leaf-file-name="photosHome.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/photos/photosHome.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="612">
+              <caret line="36" column="67" lean-forward="true" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="campus.JPG" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/images/photography/campus.JPG">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photos.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/photos.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="125" column="30" lean-forward="false" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -79,31 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scribbler2.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/projects/schoolProjects/scribbler2.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="115" lean-forward="false" selection-start-line="5" selection-start-column="115" selection-end-line="5" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timeline.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/projects/timeline.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="119" lean-forward="false" selection-start-line="5" selection-start-column="119" selection-end-line="5" selection-end-column="119" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="projects.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/projects/projects.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="32" column="95" lean-forward="true" selection-start-line="32" selection-start-column="95" selection-end-line="32" selection-end-column="95" />
+              <caret line="32" column="95" lean-forward="false" selection-start-line="32" selection-start-column="95" selection-end-line="32" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -119,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rainmaker.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rainmaker.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -143,9 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>re</find>
-      <find>res</find>
-      <find>resu</find>
       <find>resum</find>
       <find>resume</find>
       <find>#COLOR</find>
@@ -173,6 +157,9 @@
       <find>#nonim</find>
       <find>imageLink</find>
       <find>jumbotron</find>
+      <find>hover</find>
+      <find>controls</find>
+      <find>close</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,9 +213,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/photos.js" />
         <option value="$PROJECT_DIR$/views/includes/navbar.pug" />
-        <option value="$PROJECT_DIR$/public/css/photos.css" />
         <option value="$PROJECT_DIR$/public/css/bootstrap-flex.css" />
-        <option value="$PROJECT_DIR$/views/photos/photosHome.pug" />
         <option value="$PROJECT_DIR$/views/projects/projects.pug" />
         <option value="$PROJECT_DIR$/views/projects/timeline.pug" />
         <option value="$PROJECT_DIR$/views/projects/schoolProjects/scribbler2.pug" />
@@ -238,6 +223,8 @@
         <option value="$PROJECT_DIR$/views/projects/personalProjects/sentimentAnalysis.pug" />
         <option value="$PROJECT_DIR$/views/index/aboutMe.pug" />
         <option value="$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug" />
+        <option value="$PROJECT_DIR$/public/css/photos.css" />
+        <option value="$PROJECT_DIR$/views/photos/photosHome.pug" />
       </list>
     </option>
   </component>
@@ -306,6 +293,13 @@
               <item name="Website" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="photography" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Website" type="b2602c69:ProjectViewProjectNode" />
@@ -573,28 +567,8 @@
       <workItem from="1519694534964" duration="19000" />
       <workItem from="1520186275855" duration="51000" />
       <workItem from="1520563550310" duration="1679000" />
-      <workItem from="1520571420938" duration="800000" />
-    </task>
-    <task id="LOCAL-00008" summary="added links for projects">
-      <created>1489962290979</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1489962290979</updated>
-    </task>
-    <task id="LOCAL-00009" summary="added photos for buzz movie selector">
-      <created>1490748569272</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1490748569272</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Changed formatting for movie selector page">
-      <created>1490749472852</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1490749472852</updated>
+      <workItem from="1520571420938" duration="4260000" />
+      <workItem from="1520638989741" duration="204000" />
     </task>
     <task id="LOCAL-00011" summary="workspace commit">
       <created>1490749487192</created>
@@ -918,23 +892,43 @@
       <option name="project" value="LOCAL" />
       <updated>1520565211098</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="fixed ugly navbar scaling when small&#10;also removed absolute positioning of images to straighten them">
+      <created>1520572340830</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1520572340830</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Images are functional for now">
+      <created>1520575307243</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1520575307243</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Pushed images">
+      <created>1520639137137</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1520639137138</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194474000" />
+    <option name="totallyTimeSpent" value="198138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19661734" sideWeight="0.50416666" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1961824" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1961824" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -958,10 +952,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update about me. needs a lot more" />
-    <MESSAGE value="updated front page animations" />
-    <MESSAGE value="fixed jquery error..." />
-    <MESSAGE value="removed unecessary code from about me. need to remove more" />
     <MESSAGE value="about me coming together" />
     <MESSAGE value="added more words to about me." />
     <MESSAGE value="Big changes to javascript files" />
@@ -983,7 +973,11 @@
     <MESSAGE value="accidentally removed colors and sizes.css" />
     <MESSAGE value="cleaned up look of website with modified jumbotron background value" />
     <MESSAGE value="Fixed photopage, adding more photos to come" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed photopage, adding more photos to come" />
+    <MESSAGE value="fixed ugly navbar scaling when small&#10;also removed absolute positioning of images to straighten them" />
+    <MESSAGE value="Images are funcional for now" />
+    <MESSAGE value="Images are functional for now" />
+    <MESSAGE value="Pushed images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushed images" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -993,7 +987,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_icosahedron.zip/icosahedron/css/style.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/pixi.js/bin/pixi.js" />
     <entry file="file://$PROJECT_DIR$/public/css/icosahedron.css" />
     <entry file="file://$PROJECT_DIR$/routes/fun.js" />
@@ -1173,11 +1166,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/photography/abandonded_train.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/photography/abandonded_train.JPG" />
     <entry file="file://$PROJECT_DIR$/public/images/photography/10th_street_bridge.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1201,7 +1190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="4957" column="1" lean-forward="false" selection-start-line="4957" selection-start-column="1" selection-end-line="4957" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,7 +1202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="473" column="2" lean-forward="false" selection-start-line="473" selection-start-column="2" selection-end-line="473" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,7 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="119" lean-forward="false" selection-start-line="5" selection-start-column="119" selection-end-line="5" selection-end-column="119" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,22 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/photos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/photos/photosHome.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index/intro.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1278,7 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,6 +1255,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="115" lean-forward="false" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/projects/projects.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="95" lean-forward="false" selection-start-line="32" selection-start-column="95" selection-end-line="32" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="115" lean-forward="false" selection-start-line="6" selection-start-column="115" selection-end-line="6" selection-end-column="115" />
           <folding />
         </state>
       </provider>
@@ -1298,20 +1283,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/projects/projects.pug">
+    <entry file="file://$PROJECT_DIR$/public/css/photos.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="95" lean-forward="true" selection-start-line="32" selection-start-column="95" selection-end-line="32" selection-end-column="95" />
+        <state relative-caret-position="2125">
+          <caret line="125" column="30" lean-forward="false" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug">
+    <entry file="file://$PROJECT_DIR$/views/photos/photosHome.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="115" lean-forward="false" selection-start-line="6" selection-start-column="115" selection-end-line="6" selection-end-column="115" />
+        <state relative-caret-position="612">
+          <caret line="36" column="67" lean-forward="true" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/photography/campus.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
