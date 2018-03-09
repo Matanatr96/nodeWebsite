@@ -2,27 +2,27 @@ doctype html
 html
     include ../../includes/imports
         link(rel='stylesheet', href='/css/projects.css')
-    body
+    body(style='padding-top:0px').jumbotron
         div.col-lg-8.col-lg-offset-2
             include ../../includes/colorBar
             div.col-lg-12.text-center
                 div.col-lg-2.col-md-2
-                    p #[a(href='https://github.com/Matanatr96/scribbler2') Github Link]
+                    p.size2 #[a(href='https://github.com/Matanatr96/scribbler2') Github Link]
                 div.col-lg-8.col-md-8
-                    h2 Scribbler2
+                    h3 Scribbler2
                 div.col-lg-2.col-md-2
-                    p Class: CS 1301
-            div.col-lg-8.col-lg-offset-2.text-center
+                    p.size2 Class: CS 1301
+            div.col-lg-8.col-lg-offset-2.text-center.top3
                 p This is a bunch of programs centered around a fun little robot
             div.col-lg-10.col-lg-offset-1.col-md-12
                 p This class basically taught me the basics of coding and what it could do. Before this, I had no formal
                     |  instruction; just some html I had learned over the summer. This class was basically 'look at all
                     | the cool things we can do!'
-                p.text-center In this class, we had a robot. A little myro 2 robot, the scribbler. Pictured here.
-                img(src='/images/scribbler2/myro.png')
+                p.text-center In this class, we had a robot. A little myro 2 robot, the scribbler.
+                //img(src='/images/scribbler2/myro.png')
                 p With this robot in hand, we had to complete a series of tasks over the course of the semester.
-                | This included (in order)
-                ul(style='list-style-type: square')
+                | This included (in order):
+                ul(style='list-style-type: square').push-1
                     li Move the robot
                     li Run the robot for 2 minutes in a maze, avoiding walls
                     li Detect what color the robot is seeing at the moment
