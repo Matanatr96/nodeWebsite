@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="740d55f5-7f7c-4515-84b2-d191deaa1baa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/views/photos/photosHome.pug" afterPath="$PROJECT_DIR$/views/photos/photosHome.pug" />
+      <change beforePath="$PROJECT_DIR$/views/projects/schoolProjects/buzzMovieSelector.pug" afterPath="$PROJECT_DIR$/views/projects/schoolProjects/buzzMovieSelector.pug" />
+      <change beforePath="$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug" afterPath="$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photosHome.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="photosHome.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/photos/photosHome.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="374">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -53,18 +54,18 @@
       <file leaf-file-name="photos.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/photos.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1689">
+            <state relative-caret-position="2125">
               <caret line="125" column="30" lean-forward="false" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buzzMovieSelector.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="buzzMovieSelector.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/projects/schoolProjects/buzzMovieSelector.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="115" lean-forward="false" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
+            <state relative-caret-position="408">
+              <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -103,8 +104,8 @@
       <file leaf-file-name="rainmaker.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="115" lean-forward="false" selection-start-line="6" selection-start-column="115" selection-end-line="6" selection-end-column="115" />
+            <state relative-caret-position="427">
+              <caret line="38" column="92" lean-forward="false" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -212,13 +213,13 @@
         <option value="$PROJECT_DIR$/views/projects/timeline.pug" />
         <option value="$PROJECT_DIR$/views/projects/schoolProjects/scribbler2.pug" />
         <option value="$PROJECT_DIR$/views/projects/schoolProjects/flappyBird.pug" />
-        <option value="$PROJECT_DIR$/views/projects/schoolProjects/buzzMovieSelector.pug" />
         <option value="$PROJECT_DIR$/views/index/intro.pug" />
         <option value="$PROJECT_DIR$/views/projects/personalProjects/sentimentAnalysis.pug" />
         <option value="$PROJECT_DIR$/views/index/aboutMe.pug" />
-        <option value="$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug" />
         <option value="$PROJECT_DIR$/public/css/photos.css" />
         <option value="$PROJECT_DIR$/views/photos/photosHome.pug" />
+        <option value="$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug" />
+        <option value="$PROJECT_DIR$/views/projects/schoolProjects/buzzMovieSelector.pug" />
       </list>
     </option>
   </component>
@@ -263,7 +264,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,6 +337,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -556,14 +557,8 @@
       <workItem from="1520186275855" duration="51000" />
       <workItem from="1520563550310" duration="1679000" />
       <workItem from="1520571420938" duration="4260000" />
-      <workItem from="1520638989741" duration="1720000" />
-    </task>
-    <task id="LOCAL-00013" summary="added next project, scribbler2">
-      <created>1490829651882</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1490829651882</updated>
+      <workItem from="1520638989741" duration="2108000" />
+      <workItem from="1520663598300" duration="104000" />
     </task>
     <task id="LOCAL-00014" summary="commit to see errors">
       <created>1490829671036</created>
@@ -901,11 +896,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520662240934</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="local js library insert">
+      <created>1520662893419</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1520662893419</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199654000" />
+    <option name="totallyTimeSpent" value="200146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -941,7 +943,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Big changes to javascript files" />
     <MESSAGE value="about me text updated" />
     <MESSAGE value="updated rainmaker project page" />
     <MESSAGE value="divs" />
@@ -966,7 +967,8 @@
     <MESSAGE value="Pushed images" />
     <MESSAGE value="Pushed campus.jpg" />
     <MESSAGE value="public directory fix for photos" />
-    <option name="LAST_COMMIT_MESSAGE" value="public directory fix for photos" />
+    <MESSAGE value="local js library insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="local js library insert" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1205,7 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="115" lean-forward="false" selection-start-line="5" selection-start-column="115" selection-end-line="5" selection-end-column="115" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1213,14 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="115" lean-forward="false" selection-start-line="5" selection-start-column="115" selection-end-line="5" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/projects/schoolProjects/buzzMovieSelector.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="115" lean-forward="false" selection-start-line="4" selection-start-column="115" selection-end-line="4" selection-end-column="115" />
           <folding />
         </state>
       </provider>
@@ -1248,14 +1241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="115" lean-forward="false" selection-start-line="6" selection-start-column="115" selection-end-line="6" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/projects/personalProjects/sentimentAnalysis.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1266,7 +1251,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/photos.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1689">
+        <state relative-caret-position="2125">
           <caret line="125" column="30" lean-forward="false" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
           <folding />
         </state>
@@ -1287,8 +1272,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/photos/photosHome.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="374">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="38" column="92" lean-forward="false" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/projects/schoolProjects/buzzMovieSelector.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="71" />
           <folding />
         </state>
       </provider>
