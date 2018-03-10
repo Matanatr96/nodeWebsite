@@ -43,8 +43,8 @@
       <file leaf-file-name="photosHome.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/photos/photosHome.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="104">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -556,14 +556,7 @@
       <workItem from="1520186275855" duration="51000" />
       <workItem from="1520563550310" duration="1679000" />
       <workItem from="1520571420938" duration="4260000" />
-      <workItem from="1520638989741" duration="1076000" />
-    </task>
-    <task id="LOCAL-00012" summary="changed logo to png">
-      <created>1490749910989</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1490749910989</updated>
+      <workItem from="1520638989741" duration="1720000" />
     </task>
     <task id="LOCAL-00013" summary="added next project, scribbler2">
       <created>1490829651882</created>
@@ -901,11 +894,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520639210203</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="public directory fix for photos">
+      <created>1520662240934</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1520662240934</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199010000" />
+    <option name="totallyTimeSpent" value="199654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -941,7 +941,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added more words to about me." />
     <MESSAGE value="Big changes to javascript files" />
     <MESSAGE value="about me text updated" />
     <MESSAGE value="updated rainmaker project page" />
@@ -966,7 +965,8 @@
     <MESSAGE value="Images are functional for now" />
     <MESSAGE value="Pushed images" />
     <MESSAGE value="Pushed campus.jpg" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushed campus.jpg" />
+    <MESSAGE value="public directory fix for photos" />
+    <option name="LAST_COMMIT_MESSAGE" value="public directory fix for photos" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1287,8 +1287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/photos/photosHome.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="104">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
