@@ -195,13 +195,3 @@
 .auto {
     margin: auto;
 }
-
-.projectLink {
-    height: 40px;
-    line-height: 40px;
-    color: #333333;
-}
-
-.projectLink:hover {
-    color: #666666;
-}

@@ -17,7 +17,6 @@ app.use('/photos', photos);
 app.use('/projects', projects);
 app.use('/', index);
 
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');

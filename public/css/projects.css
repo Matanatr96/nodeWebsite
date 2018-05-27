@@ -9,3 +9,14 @@
     float: left;
 }
 
+.projectLink {
+    height: 40px;
+    line-height: 40px;
+    color: #333333;
+    overflow: hidden;
+    text-align: center;
+}
+
+.projectLink:hover {
+    color: #666666;
+}
