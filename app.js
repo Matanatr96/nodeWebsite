@@ -48,5 +48,13 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+var MongoClient = require('mongodb').MongoClient;
+var uri = "mongodb+srv://Windows-PC:135792468a@cluster0-bwznf.mongodb.net/test?retryWrites=true";
+MongoClient.connect(uri, function(err, client) {
+    const collection = client.db("local").collection("devices");
+    // perform actions on the collection object
+    client.close();
+});
+
 module.exports = app;
 
