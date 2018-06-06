@@ -1,18 +1,21 @@
-var express = require('express'),
-    http = require('http'),
-    path = require('path'),
-    logger = require('morgan'),
-    favicon = require('serve-favicon'),
-    cookieParser = require('cookie-parser'),
-    bodyParser = require('body-parser'),
+var express = require('express');
+var http = require('http');
+var path = require('path');
+var logger = require('morgan');
+var favicon = require('serve-favicon');
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
 
-    app = express(),
-    photos = require('./routes/photos'),
-    index = require('./routes/index'),
-    projects = require('./routes/projects');
+
+var app = express();
+var photos = require('./routes/photos');
+var index = require('./routes/index');
+var data = require('./routes/data');
+var projects = require('./routes/projects');
 
 
 //routing to controllers
+app.use('/data', data);
 app.use('/photos', photos);
 app.use('/projects', projects);
 app.use('/', index);
@@ -46,14 +49,6 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
-});
-
-var MongoClient = require('mongodb').MongoClient;
-var uri = "mongodb+srv://Windows-PC:135792468a@cluster0-bwznf.mongodb.net/test?retryWrites=true";
-MongoClient.connect(uri, function(err, client) {
-    const collection = client.db("local").collection("devices");
-    // perform actions on the collection object
-    client.close();
 });
 
 module.exports = app;
