@@ -4,8 +4,6 @@ var path = require('path');
 var logger = require('morgan');
 var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-
 
 var app = express();
 var photos = require('./routes/photos');
@@ -27,9 +25,6 @@ app.set('view engine', 'pug');
 app.locals.basedir = path.join(__dirname); //set at /Website/
 app.use(favicon(path.join(__dirname, 'public', '/images/favicon.ico')));
 app.use(logger('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 

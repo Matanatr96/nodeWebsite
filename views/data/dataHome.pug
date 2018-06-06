@@ -6,9 +6,13 @@ html
             include ../includes/navbar
             div
                 div(align='center')
-                    p.size5.top5.bot0.black Anush Mattapalli
-                form(method='POST' action='/data/timeData')
-                    div.form-group
-                        label(for='duration') Duration (Minutes):
-                        input#duration.form-control(type='number', placeholder='50')
-                    button.btn.btn-primary(type='submit') Send
+                    p.size3.top5.bot0.black Collecting data for a project. Feel free to input and submit any quote
+                div.top5
+                    form(method='POST' action='/data/timeData' enctype="application/x-www-form-urlencoded")
+                        label(for='name') Name:
+                        input#name.form-control(type='text', name='name', placeholder='Filet Minyon')
+                        label(for='quote') Your favorite quote:
+                        input#quote.form-control(type='text', name='quote', placeholder='Doubts kills more dreams than failure ever will')
+                        button.btn.btn-primary.float-lg-right.float-sm-right(type='submit') Send
+
+                div
