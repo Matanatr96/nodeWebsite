@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="740d55f5-7f7c-4515-84b2-d191deaa1baa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +23,7 @@
       <file leaf-file-name="projects.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/projects/projects.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="0">
               <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
               <folding />
             </state>
@@ -109,16 +110,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rainmaker.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/projects/workProjects/rainmaker.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="92" lean-forward="false" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -177,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/imports.pug" />
         <option value="$PROJECT_DIR$/views/navbar.pug" />
         <option value="$PROJECT_DIR$/views/includes/footer.pug" />
         <option value="$PROJECT_DIR$/views/timeline/timeline.pug" />
@@ -228,6 +218,7 @@
         <option value="$PROJECT_DIR$/views/photos/photosHome.pug" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -249,7 +240,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -577,14 +568,7 @@
       <workItem from="1520811570656" duration="40000" />
       <workItem from="1527380542604" duration="2055000" />
       <workItem from="1527468292960" duration="1179000" />
-      <workItem from="1528252082227" duration="2068000" />
-    </task>
-    <task id="LOCAL-00017" summary="Couldnt figure out socket.io">
-      <created>1491270804385</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1491270804385</updated>
+      <workItem from="1528252082227" duration="2408000" />
     </task>
     <task id="LOCAL-00018" summary="added cool icons">
       <created>1491435206590</created>
@@ -922,14 +906,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527468870392</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Fixed travis.yml issue">
+      <created>1528255061717</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1528255061718</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205545000" />
+    <option name="totallyTimeSpent" value="205885000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -962,7 +953,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added modal for image. Yet to do any other modals" />
     <MESSAGE value="added flappy bird page" />
     <MESSAGE value="Finished flappy bird page" />
     <MESSAGE value="Changed Project page to better colors" />
@@ -987,7 +977,8 @@
     <MESSAGE value="page positioning hotfix" />
     <MESSAGE value="add tsys dictionary project" />
     <MESSAGE value="fixed font issue on photography page" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed font issue on photography page" />
+    <MESSAGE value="Fixed travis.yml issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed travis.yml issue" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -997,7 +988,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/css/icosahedron.css" />
     <entry file="file://$PROJECT_DIR$/routes/fun.js" />
     <entry file="file://$PROJECT_DIR$/bin_www.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1282,7 +1272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/projects/projects.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="0">
           <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
           <folding />
         </state>
@@ -1308,6 +1298,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
