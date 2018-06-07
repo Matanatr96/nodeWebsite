@@ -1,6 +1,7 @@
 doctype html
 html
     include ../includes/imports
+    link(rel='stylesheet', href='/css/dataTable.css')
     body(style='padding-top:0px').jumbotron
         div.col-lg-10.col-lg-offset-1.col-md-10.col-md-offset-1.col-sm-10.col-sm-offset-1.col-xs-10.col-xs-offset-1
             include ../includes/navbar
@@ -9,10 +10,29 @@ html
                     p.size3.top5.bot0.black Collecting data for a project. Feel free to input and submit any quote
                 div.top5
                     form(method='POST' action='/data/timeData' enctype="application/x-www-form-urlencoded")
-                        label(for='name') Name:
-                        input#name.form-control(type='text', name='name', placeholder='Filet Minyon')
-                        label(for='quote') Your favorite quote:
-                        input#quote.form-control(type='text', name='quote', placeholder='Doubts kills more dreams than failure ever will')
+                        label(for='name') Your Name (Optional):
+                        input#name.form-control(type='text', name='name', placeholder='Anush Mattapalli')
+                        label(for='joke') Your favorite (Clean) joke:
+                        input#joke.form-control(type='text', name='quote', placeholder="What's the best thing about Switzerland? I don't know but the flag is a big plus" required)
                         button.btn.btn-primary.float-lg-right.float-sm-right(type='submit') Send
 
-                div
+                div.table-wrap.top5
+                    table.main-table
+                        colgroup
+                            col(span=1)
+                        thead
+                            tr
+                                th.fixed-side
+                                th(colspan=2) Jokes
+                        thead.small
+                            tr
+                                th.fixed-side
+                                - headers = ['Name', "Joke"]
+                                each header in headers
+                                    th= header
+                        tbody
+                            each joke in data
+                                tr
+                                    td
+                                    td #{joke.name}
+                                    td #{joke.quote}

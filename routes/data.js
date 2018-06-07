@@ -26,14 +26,23 @@ router.get('/', function (req, res, next) {
         if (err) {
             console.log('Holy error batman');
         } else {
-            var queried = client.db('test').collection('Quotes').find();
-            queried.each(function (err, quote) {
-                if (quote !== 'null') console.log(quote);
-            });
+            var jokeCollection = client.db('test').collection('Quotes');
+            jokeCollection.find({}).toArray(function (err, jokeResult) {
+                if (err) {
+                    res.send(err);
+                } else if (jokeResult.length) {
+                    res.render('data/dataHome', {title: 'Data Home', data: jokeResult});
+                }
+            })
             client.close();
         }
+
     });
-    res.render('data/dataHome', {title: 'Homepage'});
+
 });
+
+function isValid(testVar) {
+    return testVar && testVar !== 'null' && testVar !== 'undefined';
+}
 
 module.exports = router;
